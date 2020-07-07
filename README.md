@@ -38,7 +38,7 @@ I also tried the following （また以下も未翻訳部分の翻訳をやっ�
 - [Transifex](https://www.transifex.com/) ここを使っているところは多いと思う。検索機能に日本語が通らない。Tab キーで保存と次へ。CTRL と矢印上下で移動。
 - [Crowdin](https://crowdin.com/) ここも似た感じで使いやすくショートカットキーもある。
 - [Weblate](https://hosted.weblate.org/) ここだけ Merge 時のログなどにメアドが公開される可能性があるので、望まない場合、メアドを別に取得するといいでしょう。Zen をクリックで一覧を表示。検索も少し使いにくい。
-- [WebTranslateIt](https://webtranslateit.com/en) Settings から AutoScroll を No に。あと同じく設定から固定幅フォントを使ってもいいかも。活動がな場合の除名時にメアドが公開されていたが、問い合わせたら非公開に修正されました。
+- [WebTranslateIt](https://webtranslateit.com/en) Settings から AutoScroll を No に。あと同じく設定から固定幅フォントを使ってもいいかも。活動がない場合の除名時にメアドが公開されていたが、私が問い合わせたら非公開に修正されました。
 
 ## 訳し方の覚書
 
