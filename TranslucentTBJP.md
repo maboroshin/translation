@@ -5,7 +5,7 @@
 
 # TranslucentTB 説明書の日本語訳
 
-[![Build status](https://ci.appveyor.com/api/projects/status/9yym3vr6s5gc7vk3/branch/master?svg=true)](https://ci.appveyor.com/project/sylveon/translucenttb/branch/master)
+[![Build status](https://ci.appveyor.com/api/projects/status/9yym3vr6s5gc7vk3/branch/release?svg=true)](https://ci.appveyor.com/project/sylveon/translucenttb/branch/release)
 [![Join on Discord](https://img.shields.io/discord/304387206552879116.svg)][Discord]
 [![Join on Gitter](https://badges.gitter.im/TranslucentTB/Lobby.svg)][Gitter]
 [![Total downloads](https://img.shields.io/github/downloads/TranslucentTB/TranslucentTB/total.svg)](https://github.com/TranslucentTB/TranslucentTB/releases)
@@ -59,7 +59,7 @@ OS の起動時に TranslucentTB を起動するには、TranslucentTB のトレ
 
 ## ソースコードからのビルド
 
-You can checkout one of the available branches. However, it is recommended to use `master`, as the code here is stable and has been passed through peer review.
+You can checkout one of the available branches. However, it is recommended to use `release`, as the code here is stable and has been passed through peer review.
 
 Via [git](https://git-scm.com):
 
