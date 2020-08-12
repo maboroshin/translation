@@ -1,4 +1,4 @@
-# test
+# translatoins
 I make translation files for my favorite software. （お気に入りのソフトの翻訳をしています）
 
 * [Notepad2](https://github.com/zufuliu/notepad2), ver Zufuliu / [Notepad3](https://github.com/rizonesoft/Notepad3) (Mainly these two software, but also the Mod and original.)
@@ -18,6 +18,14 @@ I also tried the following （また以下も未翻訳部分の翻訳をやっ�
 * [DSyncronize](http://dimio.altervista.org/eng/) (full translate)
 * [SciTE](https://github.com/mirror/scite)
 * [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray) (full translate)
+
+## WordPress Plugins
+* [Autoptimize](https://translate.wordpress.org/locale/ja/default/wp-plugins/autoptimize/)
+* [ImageMagick Engine](https://translate.wordpress.org/locale/ja/default/wp-plugins/imagemagick-engine/)
+* [WP YouTube Lyte](https://translate.wordpress.org/locale/ja/default/wp-plugins/wp-youtube-lyte/)
+* [wp_head cleaner](https://translate.wordpress.org/locale/ja/default/wp-plugins/wp-head-cleaner/)
+* [Search Regex](https://translate.wordpress.org/locale/ja/default/wp-plugins/search-regex/)
+* [Simple Custom CSS and JS](https://translate.wordpress.org/locale/ja/default/wp-plugins/custom-css-js/)
 
 # To Japanese translators
 
@@ -39,6 +47,7 @@ I also tried the following （また以下も未翻訳部分の翻訳をやっ�
 - [Crowdin](https://crowdin.com/) ここも似た感じで使いやすくショートカットキーもある。
 - [Weblate](https://hosted.weblate.org/) ここだけ Merge 時のログなどにメアドが公開される可能性があるので、望まない場合、メアドを別に取得するといいでしょう。Zen をクリックで一覧を表示。検索も少し使いにくい。
 - [WebTranslateIt](https://webtranslateit.com/en) Settings から AutoScroll を No に。あと同じく設定から固定幅フォントを使ってもいいかも。活動がない場合の除名時にメアドが公開されていたが、私が問い合わせたら非公開に修正されました。
+- [wordpress.org](https://translate.wordpress.org/) Shift+Enter で保存して次の翻訳。CTRL+Enter で原文を翻訳欄にコピー。Wordress は翻訳ガイドラインがあるのでそれを読む。
 
 ## 訳し方の覚書
 
