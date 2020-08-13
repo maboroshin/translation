@@ -21,6 +21,7 @@ I also tried the following （また以下も未翻訳部分の翻訳をやっ�
 
 ## WordPress Plugins
 * [Autoptimize](https://translate.wordpress.org/locale/ja/default/wp-plugins/autoptimize/)
+* [Really Simple SSL](https://translate.wordpress.org/locale/ja/default/wp-plugins/really-simple-ssl/)
 * [ImageMagick Engine](https://translate.wordpress.org/locale/ja/default/wp-plugins/imagemagick-engine/)
 * [WP YouTube Lyte](https://translate.wordpress.org/locale/ja/default/wp-plugins/wp-youtube-lyte/)
 * [wp_head cleaner](https://translate.wordpress.org/locale/ja/default/wp-plugins/wp-head-cleaner/)
