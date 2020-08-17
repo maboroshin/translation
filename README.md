@@ -18,8 +18,11 @@ I also tried the following （また以下も未翻訳部分の翻訳をやっ�
 * [DSyncronize](http://dimio.altervista.org/eng/) (full translate)
 * [SciTE](https://github.com/mirror/scite)
 * [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray) (full translate)
+more...
 
 ## WordPress Plugins
+* [Really Simple SSL](https://translate.wordpress.org/locale/ja/default/wp-plugins/really-simple-ssl/)
+* [Easy Updates Manager](https://translate.wordpress.org/locale/ja/default/wp-plugins/stops-core-theme-and-plugin-updates/)
 * [Autoptimize](https://translate.wordpress.org/locale/ja/default/wp-plugins/autoptimize/)
 * [Really Simple SSL](https://translate.wordpress.org/locale/ja/default/wp-plugins/really-simple-ssl/)
 * [ImageMagick Engine](https://translate.wordpress.org/locale/ja/default/wp-plugins/imagemagick-engine/)
