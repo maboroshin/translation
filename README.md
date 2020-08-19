@@ -28,7 +28,6 @@ more...
 * [Really Simple SSL](https://translate.wordpress.org/locale/ja/default/wp-plugins/really-simple-ssl/)
 * [Easy Updates Manager](https://translate.wordpress.org/locale/ja/default/wp-plugins/stops-core-theme-and-plugin-updates/)
 * [Autoptimize](https://translate.wordpress.org/locale/ja/default/wp-plugins/autoptimize/)
-* [Really Simple SSL](https://translate.wordpress.org/locale/ja/default/wp-plugins/really-simple-ssl/)
 * [ImageMagick Engine](https://translate.wordpress.org/locale/ja/default/wp-plugins/imagemagick-engine/)
 * [WP YouTube Lyte](https://translate.wordpress.org/locale/ja/default/wp-plugins/wp-youtube-lyte/)
 * [wp_head cleaner](https://translate.wordpress.org/locale/ja/default/wp-plugins/wp-head-cleaner/)
