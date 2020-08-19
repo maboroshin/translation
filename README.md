@@ -9,7 +9,7 @@ I also tried the following （また以下も未翻訳部分の翻訳をやっ�
 * [BeeBEEP](https://www.beebeep.net/) (full translate)
 * [µTorrent](https://portableapps.com/apps/internet/utorrent_portable) (most)
 * [Transmission](https://portableapps.com/apps/internet/transmission-portable) (most)
-* ~~[qBittorrent](https://portableapps.com/apps/internet/qbittorrent_portable) (most)~~ Abandoned due tp edit war. Japanese has been replaced by an English phonetics and sentences are longer.
+* ~~[qBittorrent](https://portableapps.com/apps/internet/qbittorrent_portable) (most)~~ Abandoned due to edit war. Japanese has been replaced by an English phonetics and sentences are longer.
 * [LAN Messenger](https://github.com/maboroshin/lanmessenger_JP) (full translate)
 * [BeeBEEP](https://www.beebeep.net/) (full translate)
 * [LameXP](https://github.com/lordmulder/LameXP) (full translate)
