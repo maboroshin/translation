@@ -4,8 +4,12 @@ I make translation files for my favorite software. （お気に入りのソフ�
 * [Notepad2](https://github.com/zufuliu/notepad2), ver Zufuliu / [Notepad3](https://github.com/rizonesoft/Notepad3) (Mainly these two software, but also the Mod and original.)
 
 I also tried the following （また以下も未翻訳部分の翻訳をやってみた）:
-* [PortableApps.com Platform](https://portableapps.com/)
+* [PortableApps.com Platform](https://portableapps.com/) (fixed include: PA installer, and NSIS installer)
 * [Windows 10 Auto Dark Mode](https://github.com/Armin2208/Windows-Auto-Night-Mode/) (full translate)
+* [BeeBEEP](https://www.beebeep.net/) (full translate)
+* [µTorrent](https://portableapps.com/apps/internet/utorrent_portable) (most)
+* [Transmission](https://portableapps.com/apps/internet/transmission-portable) (most)
+* ~~[qBittorrent](https://portableapps.com/apps/internet/qbittorrent_portable) (most)~~ Abandoned due tp edit war. Japanese has been replaced by an English phonetics and sentences are longer.
 * [LAN Messenger](https://github.com/maboroshin/lanmessenger_JP) (full translate)
 * [BeeBEEP](https://www.beebeep.net/) (full translate)
 * [LameXP](https://github.com/lordmulder/LameXP) (full translate)
