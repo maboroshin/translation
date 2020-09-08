@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         Wordpress.org translation count
-// @version      0.7
+// @version      0.9
 // @description  Add count number on Wordpress.org's translation. Similar to PoEditor's string ID. When used together(Web. PoEditor), you can search on web.
 // @author       maboroshin
 // @namespace    https://github.com/maboroshin/translation
 // @grant        none
-// @match        https://translate.wordpress.org/projects/*
+// @match        https://translate.wordpress.org/projects/wp-plugins/*/*
+// @match        https://translate.updraftplus.com/projects/*/ja/japanese/?*
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js
 // ==/UserScript==
 
