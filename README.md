@@ -56,7 +56,7 @@ more...
 - [Crowdin](https://crowdin.com/) ここも似た感じで使いやすくショートカットキーもある。
 - [Weblate](https://hosted.weblate.org/) ここだけ Merge 時のログなどにメアドが公開される可能性があるので、望まない場合、メアドを別に取得するといいでしょう。Zen をクリックで一覧を表示。検索も少し使いにくい。
 - [WebTranslateIt](https://webtranslateit.com/en) Settings から AutoScroll を No に。あと同じく設定から固定幅フォントを使ってもいいかも。活動がない場合の除名時にメアドが公開されていたが、私が問い合わせたら非公開に修正されました。
-- [wordpress.org](https://translate.wordpress.org/) Shift+Enter で保存して次の翻訳。CTRL+Enter で原文を翻訳欄にコピー、PgDn, PgUpで上下に移動など、一覧は[GlotPress 1.4 Keyboard shortcuts](https://github.com/GlotPress/GlotPress-WP/wiki/1.4-Keyboard-shortcuts)。Wordress は翻訳ガイドラインがあるのでそれを読む。
+- [wordpress.org](https://translate.wordpress.org/) Shift+Enter で保存して次の翻訳。CTRL+Enter で原文を翻訳欄にコピー、PgDn, PgUp あるいは CTRL+Shift+↑ か ↓ で上下に移動など、一覧は[GlotPress 1.4 Keyboard shortcuts](https://github.com/GlotPress/GlotPress-WP/wiki/1.4-Keyboard-shortcuts)。Wordress は翻訳ガイドラインがあるのでそれを読む。
 
 ### 訳し方の覚書
 
@@ -79,6 +79,9 @@ more...
 
 ’kakko’
 - 「kakko」に直したり、kakko とする（後者は括らなくても区別できる）。
+
+題に丸をうたない。
+- ↑こんな感じになっていることが。題は端的にし、丸はないほうがすっきり見えるでしょう。
 
 アレンジしてみる。元通り訳してみるのは大事です。長くなったら混ぜ書きをしたり。短くしてみたり削る。まったく分からない場合、実際にその機能を使用してみたり、検索してみる。WEBの翻訳サイトであれば、References からコードが見れるので、分かる範囲で読んでみる。コードでは、文章内の引数は訳文直後に引数として並んでいることがあり、その引数名が total であれば個数、time であれば時間だと想像できる。
 
