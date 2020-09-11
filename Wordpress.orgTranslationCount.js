@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Wordpress.org translation count
-// @version      1.1
-// @description  Add count number on Wordpress.org's translation. Similar to PoEditor's string ID. When used together(Web. PoEditor), you can search on web.
+// @version      1.2
+// @description  First, Please add Tampermoneky Add-on. This Add count number on Wordpress.org's translation. Similar to PoEditor's string ID. When used together(Web. PoEditor), you can search on web.
 // @author       maboroshin
 // @namespace    https://github.com/maboroshin/translation
 // @grant        none
@@ -29,19 +29,22 @@
 
   let o = $("#translations").find(".actions");
   //let tableLength = o.length;
-  let tableCount = 0;
+  let countTable = 0;
 
   o.each(function() {
-    if (tableCount) {
+    if (countTable) {
       let u = $(this);
       $(this).html('<span style="font-size:70%";">' +
-        (Number(countTotalBase) + Number(tableCount)) + "</span>" +
+        (Number(countTotalBase) + Number(countTable)) + "</span>" +
         $(this).html());
     }
-    tableCount++;
+    countTable++;
   });
+
+  countTable--; // Extra +1
+  let countTotalAll = Number(countTotalBase) + Number(countTable);
   document.title = "[" +
-    (Number(countTotalBase) + Number(tableCount)) +
+    (countTotalAll - Number(countTable) +1 ) + "-" + countTotalAll +
     "/p" +
     pageNum +
     "] " + document.title;
