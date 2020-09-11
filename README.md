@@ -41,22 +41,12 @@ more...
 - `po` ファイルは [POEditor](https://poedit.net/) で翻訳する。`mo`ファイルにコンパイルされる。
 - `ts` ファイルは  [Qt-Linguist](https://github.com/thurask/Qt-Linguist/releases) で。インストールなしのソフトです。 Ctrl + S でファイルを保存し、File -> Release で `qm` ファイルにコンパイルされる。
 - `resx` ファイルは、マイクロソフトによる仕様。
-1. 上記の IniTranslator のインポートが使える。
+1. 上記の IniTranslator のインポートが使える。推奨。
 2. [ResXedit](https://wizardsoft.nl/products/resxedit), Copyright 2018, 追加のインストール不要.
 3. Resx Editor, 1.2 (2013-05-02), 要 .net Framework 3.5.
 4. [Simple Resx Editor](https://simpleresxeditor.blogspot.com/), 0.8 (2014-1-18), ファイルがないので[softpedia](https://www.softpedia.com/get/Programming/File-Editors/Simple-Resx-Editor.shtml)から, 要 .net Framework 3.5.
 
 翻訳したソフトウェアは、バージョンアップ検出ができると便利です。私は RSS でバージョンアップを取得しています。
-
-### Web ベース
-
-- GitHub のアカウントを持っておくとほかのサイトのログインにも使えます。右上ボタンから自分のリポジトリに Fork して、自分の Fork の言語化ファイルをペンのマークの Edit this file で編集する。日本語ファイルがない場合英語ファイルなどを改名して編集する（本家の文字コードを保つ）。ファイルをブラウザにドラッグ・ドロップすればアップロードできる。本家で上部の Pull requests を押す。緑の New pull requests を押し、次に compare across forks をクリック。右側の head repository で自分の Fork を選択。あとは自分でできるでしょう。プルリクエストのタイトルを他の人と揃えると他の人に分かりやすいでしょう。複数ファイルの編集時は Git のコマンドラインからやっています。
-
-- [Transifex](https://www.transifex.com/) ここを使っているところは多いと思う。検索機能に日本語が通らない。Tab キーで保存と次へ。CTRL と矢印上下で移動。
-- [Crowdin](https://crowdin.com/) ここも似た感じで使いやすくショートカットキーもある。
-- [Weblate](https://hosted.weblate.org/) ここだけ Merge 時のログなどにメアドが公開される可能性があるので、望まない場合、メアドを別に取得するといいでしょう。Zen をクリックで一覧を表示。検索も少し使いにくい。
-- [WebTranslateIt](https://webtranslateit.com/en) Settings から AutoScroll を No に。あと同じく設定から固定幅フォントを使ってもいいかも。活動がない場合の除名時にメアドが公開されていたが、私が問い合わせたら非公開に修正されました。
-- [wordpress.org](https://translate.wordpress.org/) Shift+Enter で保存して次の翻訳。CTRL+Enter で原文を翻訳欄にコピー、PgDn, PgUp あるいは CTRL+Shift+↑ か ↓ で上下に移動など、一覧は[GlotPress 1.4 Keyboard shortcuts](https://github.com/GlotPress/GlotPress-WP/wiki/1.4-Keyboard-shortcuts)。Wordress は翻訳ガイドラインがあるのでそれを読む。
 
 ### 訳し方の覚書
 
@@ -86,6 +76,16 @@ more...
 アレンジしてみる。元通り訳してみるのは大事です。長くなったら混ぜ書きをしたり。短くしてみたり削る。まったく分からない場合、実際にその機能を使用してみたり、検索してみる。WEBの翻訳サイトであれば、References からコードが見れるので、分かる範囲で読んでみる。コードでは、文章内の引数は訳文直後に引数として並んでいることがあり、その引数名が total であれば個数、time であれば時間だと想像できる。
 
 根本的には、オープンソースというのは FREE、自由、無料 そういうものを目指しています。なので通常一般通じやすいと思われる、最大多数が理解できそうな普遍的な訳を目指した方がいいと思います。
+
+### Web ベースの翻訳サービス
+
+- GitHub のアカウントを持っておくとほかのサイトのログインにも使えます。右上ボタンから自分のリポジトリに Fork して、自分の Fork の言語化ファイルをペンのマークの Edit this file で編集する。日本語ファイルがない場合英語ファイルなどを改名して編集する（本家の文字コードを保つ）。ファイルをブラウザにドラッグ・ドロップすればアップロードできる。本家で上部の Pull requests を押す。緑の New pull requests を押し、次に compare across forks をクリック。右側の head repository で自分の Fork を選択。あとは自分でできるでしょう。プルリクエストのタイトルを他の人と揃えると他の人に分かりやすいでしょう。複数ファイルの編集時は Git のコマンドラインからやっています。
+
+- [wordpress.org](https://translate.wordpress.org/) Shift+Enter で保存して次の翻訳。CTRL+Enter で原文を翻訳欄にコピー、PgDn, PgUp あるいは CTRL+Shift+↑ か ↓ で上下に移動など、一覧は[GlotPress 1.4 Keyboard shortcuts](https://github.com/GlotPress/GlotPress-WP/wiki/1.4-Keyboard-shortcuts)。Wordress は翻訳ガイドラインがあるのでそれを読む。
+- [Transifex](https://www.transifex.com/) ここを使っているところは多いと思う。検索機能に日本語が通らない。Tab キーで保存と次へ。CTRL と矢印上下で移動。
+- [Crowdin](https://crowdin.com/) ここも似た感じで使いやすくショートカットキーもある。
+- [Weblate](https://hosted.weblate.org/) ここだけ Merge 時のログなどにメアドが公開される可能性があるので、望まない場合、メアドを別に取得するといいでしょう。Zen をクリックで一覧を表示。検索も少し使いにくい。
+- [WebTranslateIt](https://webtranslateit.com/en) Settings から AutoScroll を No に。あと同じく設定から固定幅フォントを使ってもいいかも。活動がない場合の除名時にメアドが公開されていたが、私が問い合わせたら非公開に修正されました。
 
 ## If not support multilingualization
 If the software does not support multilingualization, Software use for translation.
