@@ -26,7 +26,7 @@ more...
 
 ## WordPress Plugins
 * [Really Simple SSL](https://translate.wordpress.org/locale/ja/default/wp-plugins/really-simple-ssl/)
-* [Companion Auto Update](https://translate.wordpress.org/locale/ja/default/wp-plugins/companion-auto-update/) / [Easy Updates Manager](https://translate.wordpress.org/locale/ja/default/wp-plugins/stops-core-theme-and-plugin-updates/)
+* [Companion Auto Update](https://translate.wordpress.org/locale/ja/default/wp-plugins/companion-auto-update/) / ~~(https://translate.wordpress.org/locale/ja/default/wp-plugins/stops-core-theme-and-plugin-updates/)~~(I stopped)
 * [Autoptimize](https://translate.wordpress.org/locale/ja/default/wp-plugins/autoptimize/)
 * [ImageMagick Engine](https://translate.wordpress.org/locale/ja/default/wp-plugins/imagemagick-engine/)
 * [WP YouTube Lyte](https://translate.wordpress.org/locale/ja/default/wp-plugins/wp-youtube-lyte/)
@@ -81,10 +81,10 @@ more...
 
 - GitHub のアカウントを持っておくとほかのサイトのログインにも使えます。右上ボタンから自分のリポジトリに Fork して、自分の Fork の言語化ファイルをペンのマークの Edit this file で編集する。日本語ファイルがない場合英語ファイルなどを改名して編集する（本家の文字コードを保つ）。ファイルをブラウザにドラッグ・ドロップすればアップロードできる。本家で上部の Pull requests を押す。緑の New pull requests を押し、次に compare across forks をクリック。右側の head repository で自分の Fork を選択。あとは自分でできるでしょう。プルリクエストのタイトルを他の人と揃えると他の人に分かりやすいでしょう。複数ファイルの編集時は Git のコマンドラインからやっています。
 
-- [wordpress.org](https://translate.wordpress.org/) Shift+Enter で保存して次の翻訳。CTRL+Enter で原文を翻訳欄にコピー、PgDn, PgUp あるいは CTRL+Shift+↑ か ↓ で上下に移動など、一覧は [GlotPress 1.4 Keyboard shortcuts](https://github.com/GlotPress/GlotPress-WP/wiki/1.4-Keyboard-shortcuts)。Wordress は翻訳ガイドラインがあるのでそれを読む。私が作った [Wordpress.org translation count](Wordpress.orgTranslationCount.js) でサイト上に単純に通番をつけられます。
-- [Transifex](https://www.transifex.com/) ここを使っているところは多いと思う。検索機能に日本語が通らない。Tab キーで保存と次へ。CTRL と矢印上下で移動。
+- [wordpress.org](https://translate.wordpress.org/) Shift+Enter で保存して次の翻訳。CTRL+Enter で原文を翻訳欄にコピー、PgDn, PgUp あるいは CTRL+Shift+↑ か ↓ で上下に移動など、一覧は [GlotPress 1.4 Keyboard shortcuts](https://github.com/GlotPress/GlotPress-WP/wiki/1.4-Keyboard-shortcuts)。[Wordress 翻訳 Guideline](https://ja.wordpress.org/team/handbook/translation/)があるのでそれを読む。私が作った [Wordpress.org translation count](Wordpress.orgTranslationCount.js) でサイト上に単純に通番をつけられます。
+- [Transifex](https://www.transifex.com/) ここを使っているところは多いと思う。検索機能に日本語が通らない。Tab キーで保存と次へ。CTRL と矢印上下で移動。[Community Guidelines](https://community.transifex.com/faq)
 - [Crowdin](https://crowdin.com/) ここも似た感じで使いやすくショートカットキーもある。
-- [Weblate](https://hosted.weblate.org/) ここだけ Merge 時のログなどにメアドが公開される可能性があるので、望まない場合、メアドを別に取得するといいでしょう。Zen をクリックで一覧を表示。検索も少し使いにくい。
+- [Weblate](https://hosted.weblate.org/) ここだけ Merge 時のログなどにメアドが公開される可能性があるので、望まない場合、メアドを別に取得するといいでしょう。Zen をクリックで一覧を表示。検索も少し使いにくい。[Term](https://weblate.org/en/terms/)
 - [WebTranslateIt](https://webtranslateit.com/en) Settings から AutoScroll を No に。あと同じく設定から固定幅フォントを使ってもいいかも。活動がない場合の除名時にメアドが公開されていたが、私が問い合わせたら非公開に修正されました。
 
 ## If not support multilingualization
