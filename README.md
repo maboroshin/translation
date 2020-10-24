@@ -79,7 +79,7 @@ more...
 
 ### Web ベースの翻訳サービス
 
-- GitHub のアカウントを持っておくとほかのサイトのログインにも使えます。右上ボタンから自分のリポジトリに Fork して、自分の Fork の言語化ファイルをペンのマークの Edit this file で編集する。日本語ファイルがない場合英語ファイルなどを改名して編集する（本家の文字コードを保つ）。ファイルをブラウザにドラッグ・ドロップすればアップロードできる。本家で上部の Pull requests を押す。緑の New pull requests を押し、次に compare across forks をクリック。右側の head repository で自分の Fork を選択。あとは自分でできるでしょう。プルリクエストのタイトルを他の人と揃えると他の人に分かりやすいでしょう。複数ファイルの編集時は Git のコマンドラインからやっています。
+- GitHub のアカウントを持っておくとほかのサイトのログインにも使えます。右上ボタンから自分のリポジトリに Fork して、自分の Fork の言語化ファイルをペンのマークの Edit this file で編集する。日本語ファイルがない場合英語ファイルなどを改名して編集する（本家の文字コードを保つ）。ファイルをブラウザにドラッグ・ドロップすればアップロードできる。本家で上部の Pull requests を押す。緑の New pull requests を押し、次に compare across forks をクリック。右側の head repository で自分の Fork を選択。あとは自分でできるでしょう。プルリクエストのタイトルを他の人と揃えると他の人に分かりやすいでしょう。複数ファイルの編集時は Git のコマンドラインからやっています。[GitHub Community Guidelines](https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-community-guidelines)
 
 - [wordpress.org](https://translate.wordpress.org/) Shift+Enter で保存して次の翻訳。CTRL+Enter で原文を翻訳欄にコピー、PgDn, PgUp あるいは CTRL+Shift+↑ か ↓ で上下に移動など、一覧は [GlotPress 1.4 Keyboard shortcuts](https://github.com/GlotPress/GlotPress-WP/wiki/1.4-Keyboard-shortcuts)。[Wordress 翻訳 Guideline](https://ja.wordpress.org/team/handbook/translation/)があるのでそれを読む。私が作った [Wordpress.org translation count](Wordpress.orgTranslationCount.js) でサイト上に単純に通番をつけられます。
 - [Transifex](https://www.transifex.com/) ここを使っているところは多いと思う。検索機能に日本語が通らない。Tab キーで保存と次へ。CTRL と矢印上下で移動。[Community Guidelines](https://community.transifex.com/faq)
