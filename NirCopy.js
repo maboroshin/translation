@@ -3,9 +3,9 @@
   Please drug&drop to this script.
   Author: maboroshin
   License: MIT
-  Version: 2020-06-25 229
+  Version: 2020-10-27
 */
-var VERSION = "1.23.25"; // NirSoft version;
+var VERSION = "1.10"; // NirSoft version;
 var LANG = "ja"; // ini prefix
 
 
@@ -53,9 +53,13 @@ function processing(f, ext) {
       //debug("run:\n" + exeBase + " /savelangfile");
       WshShell.run(exeBase + " /savelangfile");
       
+      while( ! isRunning(f.Name) )
+        WScript.sleep(64);
       while (fso.FileExists(iniBase) == false) {
         WScript.sleep(16);
       }
+      WScript.sleep(1500); // file is created and then appended to that file.
+      
       var fileINI = fso.GetFile(iniBase);
       var size = 0;
       while (fileINI.size < 250 && fileINI.size != size) {
@@ -98,6 +102,23 @@ function UTF8toANSI(input, output) { // It doesn't work in Windows 10, it's in U
   adodbstreamLoad.Close();
   adodbstreamSave.SaveToFile(output, 2);
   adodbstreamSave.Close();
+}
+
+function wmiObj()
+{
+  return GetObject("winmgmts:");
+}
+function isRunning(appzName)
+{
+  var wmi = wmiObj();
+  var w = wmi.InstancesOf("Win32_process");
+  var e = new Enumerator(w);
+  var rAppzName = new RegExp(appzName, "i");
+  with (e)
+    for (; !atEnd(); moveNext())
+      if (rAppzName.test(item().Name))
+        return true;
+  return false;
 }
 
 function debug(s) {
