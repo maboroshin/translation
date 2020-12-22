@@ -6,13 +6,13 @@ I make translation files for my favorite software. （お気に入りのソフ�
 I also tried the following （また以下も未翻訳部分の翻訳をやってみた）:
 * [PortableApps.com Platform](https://portableapps.com/) (fixed include: PA installer, and NSIS installer)
 * [Windows 10 Auto Dark Mode](https://github.com/Armin2208/Windows-Auto-Night-Mode/) (full translate)
-* [BeeBEEP](https://www.beebeep.net/) (full translate)
 * [µTorrent](https://portableapps.com/apps/internet/utorrent_portable) (most)
 * [Transmission](https://portableapps.com/apps/internet/transmission-portable) (most)
 * ~~[qBittorrent](https://portableapps.com/apps/internet/qbittorrent_portable) (most)~~ Abandoned due to edit war. Japanese has been replaced by an English phonetics and sentences are longer.
 * [LAN Messenger](https://github.com/maboroshin/lanmessenger_JP) (full translate)
 * [BeeBEEP](https://www.beebeep.net/) (full translate)
 * [LameXP](https://github.com/lordmulder/LameXP) (full translate)
+* TeraCopy
 * [Universal Extractor 2](https://github.com/Bioruebe/UniExtract2)
 * [Q-Dir](https://www.softwareok.com/?seite=Freeware/Q-Dir) / [DesktopOK](https://www.softwareok.com/?seite=Freeware/DesktopOK) et by SoftwareOK
 * [mp3DirectCut](https://github.com/maboroshin/mp3DirectCut)
@@ -33,6 +33,9 @@ more...
 * [wp_head cleaner](https://translate.wordpress.org/locale/ja/default/wp-plugins/wp-head-cleaner/)
 * [Search Regex](https://translate.wordpress.org/locale/ja/default/wp-plugins/search-regex/)
 * [Simple Custom CSS and JS](https://translate.wordpress.org/locale/ja/default/wp-plugins/custom-css-js/)
+* footnotes
+* WP YouTube Lyte
+* Optimize Database after Deleting Revisions
 
 # To Japanese translators
 
