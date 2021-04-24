@@ -22,6 +22,8 @@ I also tried the following （また以下も未翻訳部分の翻訳をやっ�
 * [DSyncronize](http://dimio.altervista.org/eng/) (full translate)
 * [SciTE](https://github.com/mirror/scite)
 * [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray) (full translate)
+* [CoreTemp](https://www.alcpu.com/CoreTemp/)
+* [EarTrumpet](https://www.microsoft.com/ja-jp/p/eartrumpet/9nblggh516xp)
 more...
 
 ## WordPress Plugins
