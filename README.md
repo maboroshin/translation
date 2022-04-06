@@ -45,10 +45,10 @@ more...
 - `po` ファイルは [POEditor](https://poedit.net/) で翻訳する。`mo`ファイルにコンパイルされる。
 - `ts` ファイルは  [Qt-Linguist](https://github.com/thurask/Qt-Linguist/releases) で。インストールなしのソフトです。 Ctrl + S でファイルを保存し、File -> Release で `qm` ファイルにコンパイルされる。
 - `resx` ファイルは、マイクロソフトによる仕様。
-1. 上記の IniTranslator のインポートが使える。推奨。
-2. [ResXedit](https://wizardsoft.nl/products/resxedit), Copyright 2018, 追加のインストール不要.
-3. Resx Editor, 1.2 (2013-05-02), 要 .net Framework 3.5.
-4. [Simple Resx Editor](https://simpleresxeditor.blogspot.com/), 0.8 (2014-1-18), ファイルがないので[softpedia](https://www.softpedia.com/get/Programming/File-Editors/Simple-Resx-Editor.shtml)から, 要 .net Framework 3.5.
+1. 上記の IniTranslator のインポートが使える。推奨。reswも。ファイル -> インポート -> (選択) -> インポート -> (原文とコピーした翻訳ファイルを選択) -> OK
+2. [ResXedit](https://wizardsoft.nl/products/resxedit), Copyright 2018, 追加のインストール不要。
+3. Resx Editor, 1.2 (2013-05-02), 要 .net Framework 3.5。
+4. [Simple Resx Editor](https://simpleresxeditor.blogspot.com/), 0.8 (2014-1-18), ファイルがないので[softpedia](https://www.softpedia.com/get/Programming/File-Editors/Simple-Resx-Editor.shtml)から。要 .net Framework 3.5。
 
 翻訳したソフトウェアは、バージョンアップ検出ができると便利です。私は RSS でバージョンアップを取得しています。
 
