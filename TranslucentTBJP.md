@@ -2,36 +2,42 @@
 - 翻訳者 (translater): maboroshin (https://pc.genkaku.in/)
 - ライセンス (License): 元のソフトと同様に GPL v3 に従います。
 - 元の文書 (Original document): https://github.com/TranslucentTB/TranslucentTB/blob/master/README.md
+- 元の文書の日時 (Original date): 2022年2月23日: [Commits on Feb 23, 2022](https://github.com/TranslucentTB/TranslucentTB/commits/release/README.md)
+- TranslucentTB は[2021年11月に多言語化対応を実装し中国語が追加されている](https://github.com/TranslucentTB/TranslucentTB/pull/463)
 
 # TranslucentTB 説明書の日本語訳
 
-[![Build status](https://ci.appveyor.com/api/projects/status/9yym3vr6s5gc7vk3/branch/release?svg=true)](https://ci.appveyor.com/project/sylveon/translucenttb/branch/release)
-[![Join on Discord](https://img.shields.io/discord/304387206552879116.svg)][Discord]
+[![Liberapay patrons](https://img.shields.io/liberapay/patrons/TranslucentTB.svg)](https://liberapay.com/TranslucentTB/)
+[![Join on Discord](https://discordapp.com/api/guilds/304387206552879116/widget.png?style=shield)][Discord]
 [![Join on Gitter](https://badges.gitter.im/TranslucentTB/Lobby.svg)][Gitter]
 [![Total downloads](https://img.shields.io/github/downloads/TranslucentTB/TranslucentTB/total.svg)](https://github.com/TranslucentTB/TranslucentTB/releases)
-[![Liberapay patrons](https://img.shields.io/liberapay/patrons/TranslucentTB.svg)](https://liberapay.com/TranslucentTB/)
+[![Build Status](https://dev.azure.com/sylve0n/TranslucentTB/_apis/build/status/TranslucentTB.TranslucentTB?branchName=develop)](https://dev.azure.com/sylve0n/TranslucentTB/_build/latest?definitionId=4&branchName=develop)
+[![CodeFactor](https://www.codefactor.io/repository/github/translucenttb/translucenttb/badge/develop)](https://www.codefactor.io/repository/github/translucenttb/translucenttb/overview/develop)
 
-Windows のタスクバーを透明/半透明にする軽快なソフトです（数MBのメモリで動作し、CPUもほとんど使いません）。Windows10専用です。
+> [**マルウェアの疑いについて**、権限使用に関する説明(英語)](https://github.com/TranslucentTB/TranslucentTB/issues/350) (訳注: Windows Store によくある警告表示が拡大解釈されているだけとのこと)
 
-サンプル画像は以下です。あなたもこのようにカスタマイズできます。
+Windows のタスクバーを透明/半透明にする軽快なソフトです（数MBのメモリで動作し、CPUもほとんど使いません）。Windows10用です（訳注: 更新履歴では Windows 11 用に更新されている）。
+
+サンプル画像は以下です。このようにカスタマイズできます。
 
 ![blur](https://i.imgur.com/r4ZJjnL.png) ![transparent](https://i.imgur.com/eLGTtwp.png) ![acrylic](https://i.imgur.com/M15IPJW.png)
 
 ## 特徴
 
-- 先進的な**カラーピッカー**は、タスクバーの色を変更するために、alpha と即時のプレビューに対応しています。
+- 先進的な**カラーピッカー**は、タスクバーの色を変更するために、アルファ(透過)と即時プレビューに対応しています。
 - **タスクバーの状態** (いずれかが選択できます。標準以外は、どれも色を変更できます):
-  - **透かし** (Blur): タスクバーを少しぼかします。
-  - **透明** (Clear): タスクバーを透明にします。
   - **標準** (Normal): 通常のウィンドウのスタイルです。 (TranslucentTB を使っていないのと同じ)
-  - **不透明** (Opaque): 不透明にします。
-  - **フルーエント** (Fluent): 2018年4月の Windows 10 更新プログラム以降でのみ。マイクロソフトが提唱しているフルーエントデザイン風の見栄えになります。
-- **動的**モード (Dynamic、ダイナミック) (併用できます):
-  - **ダイナミック・ウインドウ**: 何らかのウィンドウが最大化されたら、タスクバーを変更します。
-  - **ダイナミック・スタート・メニュー**: スタートメニューを開いたときに変更します。
-  - **ダイナミック・Cortana**: Cortana (無効になっていれば検索)使用時に変更します。
-  - **ダイナミック・タイムライン/ Task View**: タイムラインを開いている時に変更します。
-- **Aero Peek** を表示/非表示では、 **お好み** あるいは **動的** にカスタマイズできます。
+  - **不透明** (Opaque): 色つきタスクバーで、透明化はなし。
+  - **透明** (Clear): 色つきタスクバー（訳注: 透明度100%も可能）
+  - **透かし** (Blur): タスクバーを少しぼかします。
+  - **アクリル風** (Acrylic): タスクバーの見た目を、Microsoftの フルーエント(Fluent)デザインのガイドライン風に準拠した感じにします。（訳注:2020年以前の選択名 フルーエント）
+- **動的**モード (併用できます。訳注: つまりタスクバーの状態を固定せず状態に応じて自動で変更させる):
+  - **動的・ウインドウ**: 何らかのウィンドウが表示(Visible)または最大化(Maximise)されたら、タスクバーを変更します。
+  - **動的・スタート・メニュー**: スタートメニューを開いたとき(Start opened)に変更します。
+  - **動的・Cortana**: Cortana (無効になっていれば検索の)使用時(Search opened)に変更します。
+  - **動的・タイムライン**: タイムラインを開いている時(Time View opened)に変更します。
+- **Aero Peek ボタン** の表示/非表示では、 有効化した動的モードによって表示されます。(訳注: タスクバーの右端に出る、デスクトップを表示するボタン)
+- [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) に互換性あり！
 
 ここで動作の説明を見ることができます。 [短い動画](https://gfycat.com/TidyFelineCrownofthornsstarfish)・[長い動画](https://gfycat.com/ConsciousCriminalDassie)
 
@@ -41,158 +47,45 @@ Windows のタスクバーを透明/半透明にする軽快なソフトです�
 
 また、これまでのようにダウンロードしたければ、[Git の Releases](https://github.com/TranslucentTB/TranslucentTB/releases) からダウンロードできます。
 
-最新のテスト段階のビルドをお望みならば、[AppVeyor page](https://ci.appveyor.com/project/sylveon/translucenttb) (`Configuration: Release` > `Artifacts` > `TranslucentTB-setup.exe`) で入手できます。これらのビルドは動作しないか、部分的に完成した機能が含まれているでしょう。自己責任で使用してください。
+最新のテスト段階のビルドをお望みならば、[Azure Pipelines のページ](https://dev.azure.com/sylve0n/TranslucentTB/_build?definitionId=4) から入手できます。これらのビルドには、動作しないか、部分的に完成した機能が含まれていることがあります。自己責任で使用してください。
 
 ## OSのスタートアップに追加
 
-OS の起動時に TranslucentTB を起動するには、TranslucentTB のトレイアイコンの右クリックメニューから、Open at boot をチェックしてください。灰色になって反応しない場合、タスクマネージャーかあなたの所属機関によって無効化されています。
+OS の起動時に TranslucentTB を起動するには、TranslucentTB のトレイアイコンの右クリックメニューから、Open at boot にチェックを入れてください。灰色になっていて有効化できない場合、あなたの所属機関によって無効化されています。
 
 ## 寄付
 
-[私たちは自由主義の報酬制です](https://liberapay.com/TranslucentTB/)。TranslucentTB を大切だと感じ、私たちの開発をサポートしてくださるなら、寄付を歓迎しています。
+[Liberapayを用意しています](https://liberapay.com/TranslucentTB/)。TranslucentTB を大切だと感じ私たちの開発をサポートしてくださるなら、寄付を歓迎しています。
 
 ## セキュリティ
 
-過剰に敏感な一部のウイルス対策ソフトは、悪意のあるプログラムだと目くじらを立てるかもしれません。しかしそうではありません！20万人以上の利用者が安全にダウンロードしています。ソースコードは公開されており、自分でコンパイルして動作することもできます。セキュリティ面の審査も歓迎します。
-
-コンパイルについて・・
-
-## ソースコードからのビルド
-
-You can checkout one of the available branches. However, it is recommended to use `release`, as the code here is stable and has been passed through peer review.
-
-Via [git](https://git-scm.com):
-
-```sh
-$ git clone -b [branch-you-want] https://github.com/TranslucentTB/TranslucentTB
-Cloning into 'TranslucentTB'...
-remote: Counting objects: 909, done.
-remote: Compressing objects: 100% (40/40), done.
-remote: Total 909 (delta 44), reused 61 (delta 35), pack-reused 834
-Receiving objects: 100% (909/909), 383.94 KiB | 2.78 MiB/s, done.
-Resolving deltas: 100% (624/624), done.
-```
-
-You can also download a zip archive of each branch by clicking on the `Clone or download` button while browsing the branch's files.
-
-Now that you have the source, you will need Visual Studio 2017. [You can get the free community edition here](https://www.visualstudio.com/vs/community/).
-Check the following workloads:
-
-- Desktop development with C++
-- .NET desktop development
-
-You also need to install the following individual components:
-
-- Any of the VC++ 2017 toolsets (latest prefered)
-- Windows 10 SDK (10.0.17134.0)
-- .NET Framework 4.6.2 SDK
-- .NET Framework 4.6.2 targeting pack
-
-You also need the [Clang compiler for Windows](http://releases.llvm.org/download.html) and [Inno Setup](http://jrsoftware.org/isdl.php).
-
-<!-- markdownlint-disable MD033 -->
-Once you have that installed, open `TranslucentTB.sln`, and press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd> to build the solution.
-<!-- markdownlint-enable MD033 -->
-
-The output will be in either the Debug or Release folder (depending on which solution configuration is currently active).
-
-To build the desktop installer, run the DesktopInstallerBuilder project.
-
-To build the Microsoft Store app package, build the solution with the Store configuration.
-
-## 貢献
-
-If you would like to contribute, everyone is welcome to! If you are considering a major feature, need guidance, or want to talk an idea out, don't hesitate to jump on [Discord], [Gitter], or file an issue here. The main contributors are often on [Discord], [Gitter] and GitHub, so we should reply fairly quickly.
-At this time we have no plans of expanding this beyond the taskbar.
-
-When contributing, please respect the style used by the codebase. Quick rundown:
-
-- Allman braces everywhere, even on one line blocks:
-
-  ```cpp
-  // Bad!
-  if (condition) {
-      statement;
-  }
-  
-  // Bad!
-  if (condition) statement;
-  
-  // Bad!
-  if (condition)
-      statement;
-  
-  // Good!
-  if (condition)
-  {
-      statement;
-  }
-  ```
-
-- The only exception to this rule is the opening brace of a class, enumeration, namespace or structure, in which K&R braces apply:
-
-  ```cpp
-  class Foo {
-      // content
-  };
-  
-  struct Bar {
-      // content
-  };
-  
-  namespace Baz {
-      // content
-  }
-
-  enum Foobar {
-      // content
-  };
-  ```
-
-- lvalue, rvalue and pointer qualifiers are next to the variable name:
-
-  ```cpp
-  std::wstring &foo;
-  std::wstring &&bar;
-  std::wstring *baz;
-  ```
-
-- Indentation style is 4 spaces large tabs, and your editor should enforce it with this repo's `.editorconfig` automatically.
-
-When trying to debug the main program, it might seem confusing at first because the two projects listed for launch in the header are StorePackage and DesktopInstallerBuilder. Just right-click the TranslucentTB project and select "Set as startup project".
+過剰に敏感な一部のウイルス対策ソフトは、悪意のあるプログラムだと目くじらを立てるかもしれません。しかしそうではありません！200万人以上の利用者が安全にダウンロードしています。ソースコードは公開されており、[自分でコンパイル](https://github.com/TranslucentTB/TranslucentTB/blob/release/CONTRIBUTING.md#building-from-source)して動作させることもできます。セキュリティ面の審査も歓迎します。
 
 ## 謝辞
 
-TranslucentTB is a team effort! It is the result of the collective efforts of many people:
+TranslucentTB は大勢の人々の取り組みによる産物です！:
 
 - [@ethanhs](https://github.com/ethanhs),
 - [@sylveon](https://github.com/sylveon),
 - [@MrAksel](https://github.com/MrAksel),
 - [@denosawr](https://github.com/denosawr),
 - [@PFCKrutonium](https://github.com/PFCKrutonium),
-- and last but not least, all of [our contributors](https://github.com/TranslucentTB/TranslucentTB/graphs/contributors)!
+- 最後になりますが、[ほかのすべての貢献者の方々も](https://github.com/TranslucentTB/TranslucentTB/graphs/contributors)!
 
-Thanks to [@dAKirby309](https://github.com/dAKirby309) for making the icon! You can find more of his stuff on [his DeviantArt profile](https://dakirby309.deviantart.com/).
-
-The color picker used comes from [this great CodeProject article](https://www.codeproject.com/Articles/9207/An-HSV-RGBA-colour-picker).
-We've modernized it a bit, with per-monitor high DPI awareness, faster (and hardware-accelerated) drawing as well as allowing to input any valid HTML color code or [name](https://www.w3schools.com/colors/colors_names.asp).
-
-The picture we used for the installer screenshot is by [Michael D Beckwith](https://unsplash.com/photos/M-nHIqkO4-o) from [Unsplash](https://unsplash.com/).
-
-We use [Inno Setup Dependency Installer](https://github.com/stfx/innodependencyinstaller) to install the Visual C++ redistribuable.
+アイコン作成者の[@dAKirby309](https://github.com/dAKirby309)に感謝！[彼のDeviantArt内のプロフィール](https://www.deviantart.com/dakirby309)から、彼のすべての作品が見れます。
 
 ### 類似ソフト
 
-If you are looking for something that modifies more than just the taskbar, there are several programs out there.
+タスクバーを変更する以上のものを探している場合、いくつかのプログラムがあります。
 
-[Taskbar Tools](https://github.com/Elestriel/TaskbarTools) is a similar program written in C#. However, it seems to be unmaintaned.
-
-You may have seen similar translucency abilities from programs such as StartIsBack, Start10 and the now defunct Classic Shell. All of these are great programs, but I don't need the start-replacement features, so I wrote this.
-TranslucentTB also allows for more customizability over the taskbar with features such as Dynamic Windows, Dynamic Peek and Dynamic Start that these programs don't have. The storage and memory impact is also lesser.
+- [TaskbarX](https://github.com/ChrisAnd1998/TaskbarX) もタスクバーの見た目を変更しますが、TranslucentTB の動的モードはありません。
+- [Taskbar Tools](https://github.com/Elestriel/TaskbarTools) C# で書かれた同様のプログラムです。しかし開発停止しているようです。
+ 
+StartIsBack や Start10、今では機能していない Classic Shell などのソフトで、同様の透明化の機能を見たことがあるかもしれません。これらは素晴らしいソフトですが、スタートを置き換える機能は私には不要でした。そこで私は TranslucentTB を作りました。また TranslucentTB では、それらのソフトにはない動的変更の機能によって、よりタスクバーをカスタマイズできます。ディスク容量とメモリへの影響も少ないです。
 
 ### ライセンス
 
-このプログラムは、GPL v3 のライセンスのフリーなソフトウェアです。詳細は [LICENSE.md](LICENSE.md) ファイルをご確認ください。
+このプログラムは、GPL v3 のライセンスのフリーなソフトウェアです。詳細は [ライセンス](https://github.com/TranslucentTB/TranslucentTB/blob/release/LICENSE.md) ファイルをご確認ください。
 
-[Discord]: https://discord.gg/w95DGTK
+[Discord]: https://discord.gg/TranslucentTB
 [Gitter]: https://gitter.im/TranslucentTB/L
