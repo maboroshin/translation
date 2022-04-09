@@ -1,9 +1,26 @@
-﻿# 文書の情報
+# 文書の情報
 - 翻訳者 (translater): maboroshin (https://pc.genkaku.in/)
 - ライセンス (License): 元のソフトと同様に GPL v3 に従います。
 - 元の文書 (Original document): https://github.com/TranslucentTB/TranslucentTB/blob/master/README.md
 - 元の文書の日時 (Original date): 2022年2月23日: [Commits on Feb 23, 2022](https://github.com/TranslucentTB/TranslucentTB/commits/release/README.md)
 - TranslucentTB は[2021年11月に多言語化対応を実装し中国語が追加されている](https://github.com/TranslucentTB/TranslucentTB/pull/463)
+
+# TranslucentTB 日本語化してコンパイル時のメモ
+- SDK 10.0.22543 が Windows11なので使えない。未確認。
+- git bash に SSH など登録
+- Visual Studio 2022 Community インストール
+- TranslucentTB は release ではなく develop を clone
+~~~
+git clone -b develop git@github.com:maboroshin/TranslucentTB.git
+~~~
+
+- git bash では、vcpkg などは円記号 \\ ではなく、スラッシュ/ に置換して使う。また、現在のフォルダのファイルを実行する場合、起点を表す ./ を用いる。
+~~~
+git clone https://github.com/Microsoft/vcpkg.git
+./vcpkg/bootstrap-vcpkg.bat
+./vcpkg/vcpkg install --overlay-triplets=TranslucentTB/vcpkg/triplets --triplet x64-windows-ttb --overlay-ports=TranslucentTB/vcpkg/ports --head detours gtest member-thunk rapidjson spdlog wil
+./vcpkg/vcpkg integrate install
+~~~
 
 # TranslucentTB 説明書の日本語訳
 
