@@ -42,7 +42,7 @@ more...
 
 - 平文テキストファイルは、そのままテキストエディタで翻訳できる。しかし言語ファイル翻訳ツールは、原文をコピー、保存して次へなどショートカットキーによる作業の高速化ができるため欠かせません。
 - `ini` ファイルは、[IniTranslator](https://portableapps.com/apps/development/initranslator-portable) が使えるし、このソフトはいくつかの形式をインポートできるし、自分で作る辞書機能もいい感じ。[公式の日本語化置き場](https://sourceforge.net/p/initranslator/language-files/14/)に最新の日本語化ファイルがある（一番下のJapanese.lng）。
-- `po` ファイルは [POEditor](https://poedit.net/) で翻訳する。`mo`ファイルにコンパイルされる。
+- `po` ファイルは [POEdit](https://poedit.net/) で翻訳する。`mo`ファイルにコンパイルされる。
 - `ts` ファイルは  [Qt-Linguist](https://github.com/thurask/Qt-Linguist/releases) で。インストールなしのソフトです。 Ctrl + S でファイルを保存し、File -> Release で `qm` ファイルにコンパイルされる。
 - `resx` ファイルは、マイクロソフトによる仕様。
 1. 上記の IniTranslator のインポートが使える。推奨。reswも。ファイル -> インポート -> (選択) -> インポート -> (原文とコピーした翻訳ファイルを選択) -> OK
