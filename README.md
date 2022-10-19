@@ -23,6 +23,7 @@ I also tried the following （また以下も未翻訳部分の翻訳をやっ�
 * [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray) (full translate)
 * [CoreTemp](https://www.alcpu.com/CoreTemp/)
 * [EarTrumpet](https://www.microsoft.com/ja-jp/p/eartrumpet/9nblggh516xp)
+* [LosslessCut]
 more...
 
 ## WordPress Plugins
@@ -41,7 +42,7 @@ more...
 # To Japanese translators
 
 - 平文テキストファイルは、そのままテキストエディタで翻訳できる。しかし言語ファイル翻訳ツールは、原文をコピー、保存して次へなどショートカットキーによる作業の高速化ができるため欠かせません。
-- `ini` ファイルは、[IniTranslator](https://portableapps.com/apps/development/initranslator-portable) が使えるし、このソフトはいくつかの形式をインポートできるし、自分で作る辞書機能もいい感じ。[公式の日本語化置き場](https://sourceforge.net/p/initranslator/language-files/14/)に最新の日本語化ファイルがある（一番下のJapanese.lng）。
+- `ini` ファイルは、[IniTranslator](https://portableapps.com/apps/development/initranslator-portable) が使えるし、このソフトはいくつかの形式をインポートできるし、自分で作る辞書機能もいい感じ。[公式の日本語化置き場](https://sourceforge.net/p/initranslator/language-files/14/)に最新の日本語化ファイルがある（一番下のJapanese.lng）。`[Menu]`の形式で括弧がある箇所は英語そのままします。これは節を示していて、英語と日本語のそれぞれのファイルで対応するということです。同じ文字列にしておく必要があります。
 - `po` ファイルは [POEdit](https://poedit.net/) で翻訳する。`mo`ファイルにコンパイルされる。
 - `ts` ファイルは  [Qt-Linguist](https://github.com/thurask/Qt-Linguist/releases) で。インストールなしのソフトです。 Ctrl + S でファイルを保存し、File -> Release で `qm` ファイルにコンパイルされる。
 - `resx` ファイルは、マイクロソフトによる仕様。
@@ -51,6 +52,8 @@ more...
 4. [Simple Resx Editor](https://simpleresxeditor.blogspot.com/), 0.8 (2014-1-18), ファイルがないので[softpedia](https://www.softpedia.com/get/Programming/File-Editors/Simple-Resx-Editor.shtml)から。要 .net Framework 3.5。
 
 翻訳したソフトウェアは、バージョンアップ検出ができると便利です。私は RSS でバージョンアップを取得しています。
+
+[フリーソフト日本語化 Wiki](https://github.com/maboroshin/translation/wiki/%E3%83%95%E3%83%AA%E3%83%BC%E3%82%BD%E3%83%95%E3%83%88%E6%97%A5%E6%9C%AC%E8%AA%9E%E5%8C%96-Wiki) ― 各種フリーソフトの翻訳状況を把握する。
 
 ### 訳し方の覚書
 
