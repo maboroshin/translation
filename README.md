@@ -104,8 +104,10 @@ more...
 - [wordpress.org](https://translate.wordpress.org/) Shift+Enter で保存して次の翻訳。CTRL+Enter で原文を翻訳欄にコピー、PgDn, PgUp あるいは CTRL+Shift+↑ か ↓ で上下に移動など、一覧は [GlotPress 1.4 Keyboard shortcuts](https://github.com/GlotPress/GlotPress-WP/wiki/1.4-Keyboard-shortcuts)。[Wordress 翻訳 Guideline](https://ja.wordpress.org/team/handbook/translation/)があるのでそれを読む。私が作った [Wordpress.org translation count](Wordpress.orgTranslationCount.js) でサイト上に単純に通番をつけられます。
 - [Transifex](https://www.transifex.com/) ここを使っているところは多いと思う。検索機能に日本語が通らない。Tab キーで保存と次へ。CTRL と矢印上下で移動。規範 [Transifex Community Guidelines](https://community.transifex.com/faq)
 - [Crowdin](https://crowdin.com/) ここも似た感じで使いやすくショートカットキーもある。Activityの日本語絞り込みはURLに ?lang=25 を追加。 規範 [Crowdin Terms and Conditions](https://support.crowdin.com/terms/)
+- [WebTranslateIt](https://webtranslateit.com/) Settings から AutoScroll を No に。あと同じく設定から固定幅フォントを使ってもいいかも。活動がない場合の除名時にメアドが公開されていたが、私が問い合わせたら非公開に修正されました。規範 [WebTranslateIt Terms of Service](https://webtranslateit.com/en/tos)
 - [Weblate](https://hosted.weblate.org/) ここだけ Merge 時のログなどにメアドが公開される可能性があるので、望まない場合、メアドを別に取得するといいでしょう。Zen をクリックで一覧を表示。検索も少し使いにくい。規範なし？笑
-- [WebTranslateIt](https://webtranslateit.com/en) Settings から AutoScroll を No に。あと同じく設定から固定幅フォントを使ってもいいかも。活動がない場合の除名時にメアドが公開されていたが、私が問い合わせたら非公開に修正されました。規範 [WebTranslateIt Terms of Service](https://webtranslateit.com/en/tos)
+
+[Translation Platform Comparison](TranslationPlatform.md)
 
 ## If not support multilingualization
 If the software does not support multilingualization, Software use for translation.
