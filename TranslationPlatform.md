@@ -1,13 +1,25 @@
 # Translation Platform Comparison for Open Source softwares
 
-**Software Translation Platform** or **oftware Localization Platform** is a tool to assist in the process of translating software for a large group of people. This is primarily an online tool. (**Update** : October 2022)
+**Software Translation Platform** or **Software Localization Platform** is a tool to assist in the process of translating software for a large group of people. This is primarily an online tool. e.g. GitHub, Transifex, Crowdin, Wordpress.org. (**Update** : October 2022)
 
-As a native Japanese, I have translated over a hundred applications. Many are open source.
+E-Mail is also often used to send translation files. For successful software localization. Good communication, Announcement of activities, and use of existing platforms are important. The use of a translations editor is also useful. e.g. IniTranslator, Qt-Linguist, POEdit.
+
+Many are careful to protect personal information. I'm concerned that Weblate is publishing contributors' email addresses.
+
+With the exception of Weblate, they have terms that prohibit personal attacks harassment. There is also no access control with the Weblate free plan. Trolls can submit low quality translations many times.
 
 ## Statistics and Impressions
+As a native Japanese, I have translated over a hundred applications. Many are open source.
+
+**Good communications**
+
 GitHub and E-mail are the major. GitHub and E-mail are always in communication. We can communicate with developers with icons. Most developers are friendly and jovial. This is one of the joys of GitHub. But On the Translation Platform, the developer basically does not know the translator. Developers should welcome translation contributors who encounter problems to come to GitHub to communicate.
 
+**Announcement of activities**
+
 The most common means is online platforms including GitHub. They provide a visualization of the participants' behavior. In the case of e-mail, it may be difficult to recognize another translator. On GitHub, you can see the update history of each code. Even if the project is not active, the e-mail is more difficult to understand. The developer may not check e-mail frequently.
+
+**Use of existing platforms**
 
 The uTorrent project had a translation platform on its own site. This is not recommended because it increases password management. If I have a Github account, I can join other existing platforms right away. I don't use Sourceforge because it is difficult to use. However, in most cases, the developer's e-mail address is publicly available. I send translation files to this address.
 
@@ -34,10 +46,12 @@ Below is the means by which I sent the latest translation files. In some cases, 
 
 I have translated over 20 plugins. Most Wordpress plugins are translated on the Wordpress.org's translation platform. 
 
+**Use of existing platforms and announcement**
+
 4 plugins, this translation was not reflected in the actual plugins. I think in some cases the old code was still on the platform. Others used translation files sent by e-mail or other means. In such cases, The plugin information page on Wordpress.org should state that it does not use Wordpress.org's translations. We should not contribute to a project that does not provide clear and understandable notices.
 
 ## Tools for translation file
-Most translation files can be edited in a text editor. Editing software has been developed for some file extensions. The use of shortcuts key is useful.
+Most translation files can be edited in a text editor. Translations editor has been developed for some file extensions. The use of shortcuts key is useful.
 
 | File extention | Software | Memo |
 |:-----------|--------|--------|
@@ -54,7 +68,7 @@ Most translation files can be edited in a text editor. Editing software has been
 
 [Transifex](https://www.transifex.com/legal/security/) claims on compliance with privacy laws, access control, encryption, and ISO certification of e-mail communications.
 
-In 2019, I found someone's e-mail address on WebTranslateIt (payware). When I contacted WebTranslateIt, I received a friendly reply. After another day or so, I received an e-mail that resolved the problem. It said that the program had been improved so that the e-mail address would not be published. I was surprised at the good experience.
+In 2019, I found someone's e-mail address on WebTranslateIt (Paidware). When I contacted WebTranslateIt, I received a friendly reply. After another day or so, I received an e-mail that resolved the problem. It said that the program had been improved so that the e-mail address would not be published. I was surprised at the good experience.
 
 **Bad case**
 
@@ -67,16 +81,20 @@ Weblate has the following [Legal Terms](https://hosted.weblate.org/legal/):
 * Allow personal email addresses to be ommitted in commits (Development in progress in 2021 - 2022) : https://github.com/WeblateOrg/weblate/issues/6508
 
 ## Access control
-It concerns the developer stopping vandalism.
+It concerns the developer stopping vandalism. They also have a reviewer system. Reviewers can approve translation suggestions.
 
-* Transifex: Generaly, The administrator approves participation.
-* Crowdin [User Management](https://support.crowdin.com/enterprise/user-management/)
-* Weblate [Access control](https://docs.weblate.org/en/latest/admin/access.html#access-control) : Anyone can rewrite it freely. Access control is not possible with the libre plan, which allows open source software projects to use it for free.
+* Transifex: Generaly, The administrator approves participation. This system itself is an access control.
+* Crowdin [User Management](https://support.crowdin.com/enterprise/user-management/) : In some projects, developers approve each suggestions. I do not experience a problem on Crowdin. So I don't know much about it.
+* Weblate [Access control](https://docs.weblate.org/en/latest/admin/access.html#access-control) : Anyone can rewrite it freely. Access control is not possible with the libre plan, which allows open source software projects to use it for free. [Turning on reviews](https://docs.weblate.org/en/latest/workflows.html#turning-on-reviews) : Not available for free projects.
 
-They also have a reviewer system. Reviewers can approve translation suggestions.
+**Bad cace: failure to maintain translation quality**
+
+Troll on the Translation Platform Weblate was reported on GitHub.
+
+A troll came to the translation platform Weblate. He keeps reverting to the wrong translation. However, Weblate's free plan allows neither access control nor a review system. Only Weblate has no code of conduct (below). Trolls can submit low quality translations many times.
 
 ## Code of Conduct for Translation Platforms
-Relates to the suspension of the use of vandalism.
+Relates to the suspension of the use of vandalism. With the exception of Weblate, they have terms that prohibit personal attacks and harassment.
 
 [GitHub Community Guidelines](https://docs.github.com/en/site-policy/github-terms/github-community-guidelines)
 > Working in a collaborative environment means disagreements may happen. But **remember to criticize ideas, not people**. Share thoughtful, constructive criticism and be courteous to those you interact with.
@@ -88,15 +106,15 @@ Relates to the suspension of the use of vandalism.
 [Transifex Community Guidelines](https://community.transifex.com/faq#improve)
 > But **remember to criticize ideas, not people**.
 > Please avoid: Ad hominem attacks; Responding to a post’s tone instead of its actual content
-> Don’t harass or grief anyone, impersonate people, or expose their private information.
+> **Don’t harass** or grief anyone, impersonate people, or expose their private information.
 
 ----
 [Crowdin Terms and Conditions](https://support.crowdin.com/terms/) : 7.1?
->7.1: the Client and any of the Users associated with the Account do not create, transmit, display or make otherwise available any Client Data that violates the terms of these Terms, (in short) or is harmful (in short), offensive, threatening, abusive, harassing, tortuous, defamatory, vulgar, obscene, invasive of another’s privacy, hateful or otherwise unlawful;
+>7.1: the Client and any of the Users associated with the Account do not create, transmit, display or make otherwise available any Client Data that violates the terms of these Terms, (in short) or is harmful (in short), offensive, threatening, abusive, **harassing**, tortuous, defamatory, vulgar, obscene, invasive of another’s privacy, hateful or otherwise unlawful;
 
 ----
 [Weblate](https://weblate.org/terms/): No code of conduct can be found.
 
 ----
 [WebTranslateIt](https://webtranslateit.com/tos) (Paidware)
->You may not use the site to harass other users.
+>You may **not use the site to harass** other users.
