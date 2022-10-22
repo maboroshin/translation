@@ -1,4 +1,6 @@
-# translatoins
+* [Translation Platform Comparison](TranslationPlatform.md) (English)
+
+# My translatoins
 I make translation files for my favorite software. （お気に入りのソフトの翻訳をしています）
 
 * [Notepad2](https://github.com/zufuliu/notepad2), ver Zufuliu / [Notepad3](https://github.com/rizonesoft/Notepad3) (Mainly these two software, but also the Mod and original.)
@@ -24,6 +26,7 @@ I also tried the following （また以下も未翻訳部分の翻訳をやっ�
 * [CoreTemp](https://www.alcpu.com/CoreTemp/)
 * [EarTrumpet](https://www.microsoft.com/ja-jp/p/eartrumpet/9nblggh516xp)
 * [Lossless Cut](https://github.com/mifi/lossless-cut)
+
 more...
 
 ## WordPress Plugins
@@ -106,8 +109,6 @@ more...
 - [Crowdin](https://crowdin.com/) ここも似た感じで使いやすくショートカットキーもある。Activityの日本語絞り込みはURLに ?lang=25 を追加。 規範 [Crowdin Terms and Conditions](https://support.crowdin.com/terms/)
 - [WebTranslateIt](https://webtranslateit.com/) Settings から AutoScroll を No に。あと同じく設定から固定幅フォントを使ってもいいかも。活動がない場合の除名時にメアドが公開されていたが、私が問い合わせたら非公開に修正されました。規範 [WebTranslateIt Terms of Service](https://webtranslateit.com/en/tos)
 - [Weblate](https://hosted.weblate.org/) ここだけ Merge 時のログなどにメアドが公開される可能性があるので、望まない場合、メアドを別に取得するといいでしょう。Zen をクリックで一覧を表示。検索も少し使いにくい。規範なし？笑
-
-[Translation Platform Comparison](TranslationPlatform.md)
 
 ## If not support multilingualization
 If the software does not support multilingualization, Software use for translation.
