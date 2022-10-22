@@ -83,6 +83,7 @@ Weblate has the following [Legal Terms](https://hosted.weblate.org/legal/):
 ## Access control
 It concerns the developer stopping vandalism. They also have a reviewer system. Reviewers can approve translation suggestions.
 
+* Wordpress.org Japan has a well-developed reviewer system. Translation guidelines are also available. Low quality translations will not be approved.
 * Transifex: Generaly, The administrator approves participation. This system itself is an access control.
 * Crowdin [User Management](https://support.crowdin.com/enterprise/user-management/) : In some projects, developers approve each suggestions. I do not experience a problem on Crowdin. So I don't know much about it.
 * Weblate [Access control](https://docs.weblate.org/en/latest/admin/access.html#access-control) : Anyone can rewrite it freely. Access control is not possible with the libre plan, which allows open source software projects to use it for free. [Turning on reviews](https://docs.weblate.org/en/latest/workflows.html#turning-on-reviews) : Not available for free projects.
