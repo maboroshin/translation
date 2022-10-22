@@ -94,6 +94,10 @@ Troll on the Translation Platform Weblate was reported on GitHub.
 
 A troll came to the translation platform Weblate. He keeps reverting to the wrong translation. However, Weblate's free plan allows neither access control nor a review system. Only Weblate has no code of conduct (below). Trolls can submit low quality translations many times.
 
+In this case, the change history is increased. However Weblate only displays 10 logs including comments on each string page. I need to open a page for each string. When I tried to move the discussion to GitHub, the GitHub developers told me to go back to Weblate.
+
+Thus for a long time, the Japanese translation of "About" remained the same "About". And New contributors have registered broken Japanese.
+
 ## Code of Conduct for Translation Platforms
 Relates to the suspension of the use of vandalism. With the exception of Weblate, they have terms that prohibit personal attacks and harassment.
 
