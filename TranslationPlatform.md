@@ -60,6 +60,10 @@ Most translation files can be edited in a text editor. Translations editor has b
 | `ts` | Qt-Linguist | Compile to `qm` file 
 | `po` | [POEdit](https://poedit.net/) | Compile to `mo` file
 
+## Open source
+
+Transifex was initially open source. Transifex stopped doing so in 2013. This has led some developers to migrate to Weblate. Because Weblate is open source. However, as shown below, this may not be related to improved translation quality.
+
 ## Privacy Issues
 
 **Good case**
@@ -72,31 +76,41 @@ In 2019, I found someone's e-mail address on WebTranslateIt (Paidware). When I c
 
 **Bad case**
 
-In Weblate, The user agrees that his/her e-mail address to the commit will be published. It is not in the code, it is embedded in the comments of each commit on GitHub. So I using a Weblate-only e-mail address. For example, search for the following search terms : `Weblate commit "Co-authored-by"` . You will see that someone's e-mail address are publicly available. We are lucky that most pages on GitHub are not cached. But You can discover by opening each commit on GitHub.
+[Weblate](https://bestpractices.coreinfrastructure.org/en/projects/552#security) claims that one or more developers has knowledge about how to designing secure software and vulnerabilities. : via [Security and privacy](https://docs.weblate.org/en/latest/contributing/security.html) (Weblate). Weblate encrypt and store passwords.
 
-Weblate has the following [Legal Terms](https://hosted.weblate.org/legal/):
+On the other hand, Weblate publishes user's e-mail addresses. It is not in the code, it is embedded in the comments of each commit on GitHub. So I using a Weblate-only e-mail address. For example, search for the following search terms : `Weblate commit "Co-authored-by"` . You will see that someone's e-mail address are publicly available. We are lucky that most pages on GitHub are not cached. But You can discover by opening each commit on GitHub.
+
+[Weblate Legal Terms](https://hosted.weblate.org/legal/)
 > Your name and e-mail address is used in VCS commits, it will stay there indefinitely.
 
-* Not explicitly stated. but this leads to the publication of the e-mail address (At 2019): https://github.com/WeblateOrg/weblate/issues/3105
+[Weblate Terms and Privacy](https://weblate.org/en/terms/)
+> Terms of Service 6.5. The User agrees to use of own name and e-mail as authorship in the VCS commits. The User understands that this grant is non revocable due to nature of the VCS.<br>
+> Privacy Policy 2. Name and e-mail address : These are used to identify you in the VCS commits.
+
+The user agrees to be used. However, There is no mention of the fact that anyone can view the personal information of VCS commits. This does not end with disclosure to the VCS system. It will be disclosed to all persons who have access to the public VCS.
+
+* Make user's email addresses private by default (2019): https://github.com/WeblateOrg/weblate/issues/3105
 * Allow personal email addresses to be ommitted in commits (Development in progress in 2021 - 2022) : https://github.com/WeblateOrg/weblate/issues/6508
 
 ## Access control
 It concerns the developer stopping vandalism. They also have a reviewer system. Reviewers can approve translation suggestions.
 
-* Wordpress.org Japan has a well-developed reviewer system. Translation guidelines are also available. Low quality translations will not be approved.
-* Transifex: Generaly, The administrator approves participation. This system itself is an access control.
-* Crowdin [User Management](https://support.crowdin.com/enterprise/user-management/) : In some projects, developers approve each suggestions. I do not experience a problem on Crowdin. So I don't know much about it.
-* Weblate [Access control](https://docs.weblate.org/en/latest/admin/access.html#access-control) : Anyone can rewrite it freely. Access control is not possible with the libre plan, which allows open source software projects to use it for free. [Turning on reviews](https://docs.weblate.org/en/latest/workflows.html#turning-on-reviews) : Not available for free projects.
+- Wordpress.org Japan has a well-developed reviewer system. Translation guidelines are also available. Low quality translations will not be approved.
+- Transifex: Generaly, The administrator approves participation. This system itself is an access control.
+- Crowdin [User Management](https://support.crowdin.com/enterprise/user-management/) : In some projects, developers approve each suggestions. I do not experience a problem on Crowdin. So I don't know much about it.
+- Weblate [Access control](https://docs.weblate.org/en/latest/admin/access.html#access-control) : Anyone can rewrite it freely. Access control is not possible with the libre plan, which allows open source software projects to use it for free. [Turning on reviews](https://docs.weblate.org/en/latest/workflows.html#turning-on-reviews) : Not available for free projects.
+
+An issue was created in 2015, but managing participants is a paid feature.
+
+* Authorized translators (2015) : https://github.com/WeblateOrg/weblate/issues/779
 
 **Bad cace: failure to maintain translation quality**
 
-Troll on the Translation Platform Weblate was reported on GitHub.
-
 A troll came to the translation platform Weblate. He keeps reverting to the wrong translation. However, Weblate's free plan allows neither access control nor a review system. Only Weblate has no code of conduct (below). Trolls can submit low quality translations many times.
 
-In this case, the change history is increased. However Weblate only displays 10 logs including comments on each string page. I need to open a page for each string. When I tried to move the discussion to GitHub, the GitHub developers told me to go back to Weblate.
+In this case, the change history is increased. However Weblate only displays 10 logs including comments on each string page. I need to open a page for each string. It's dozen pages. Thus, Weblate is not suitable for discussion. When I tried to move the discussion to GitHub, the GitHub developers told me to go back to Weblate.
 
-Thus for a long time, the Japanese translation of "About" remained the same "About". And New contributors have registered broken Japanese.
+Thus for a long time, the Japanese translation of "About" remained the same "About". And, New contributors have registered broken Japanese. Developers cannot select experienced participants. Only the last edit will remain. If trolls are involved, the quality of the translation will be lowered.
 
 ## Code of Conduct for Translation Platforms
 Relates to the suspension of the use of vandalism. With the exception of Weblate, they have terms that prohibit personal attacks and harassment.
@@ -118,7 +132,7 @@ Relates to the suspension of the use of vandalism. With the exception of Weblate
 >7.1: the Client and any of the Users associated with the Account do not create, transmit, display or make otherwise available any Client Data that violates the terms of these Terms, (in short) or is harmful (in short), offensive, threatening, abusive, **harassing**, tortuous, defamatory, vulgar, obscene, invasive of another’s privacy, hateful or otherwise unlawful;
 
 ----
-[Weblate](https://weblate.org/terms/): No code of conduct can be found.
+[Weblate](https://weblate.org/terms/): ***No code of conduct can be found.***
 
 ----
 [WebTranslateIt](https://webtranslateit.com/tos) (Paidware)
