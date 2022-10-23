@@ -76,7 +76,7 @@ In 2019, I found someone's e-mail address on WebTranslateIt (Paidware). When I c
 
 **Bad case**
 
-[Weblate](https://bestpractices.coreinfrastructure.org/en/projects/552#security) claims that one or more developers has knowledge about how to designing secure software and vulnerabilities. : via [Security and privacy](https://docs.weblate.org/en/latest/contributing/security.html) (Weblate). Weblate encrypt and store passwords.
+[Weblate](https://bestpractices.coreinfrastructure.org/en/projects/552#security) claims that one or more developers has knowledge about how to designing secure software and vulnerabilities. : via [Security and privacy](https://docs.weblate.org/en/latest/contributing/security.html) (Weblate). Weblate encrypt and store passwords. Weblate claims to be GDPR compliant.
 
 On the other hand, Weblate publishes user's e-mail addresses. It is not in the code, it is embedded in the comments of each commit on GitHub. So I using a Weblate-only e-mail address. For example, search for the following search terms : `Weblate commit "Co-authored-by"` . You will see that someone's e-mail address are publicly available. We are lucky that most pages on GitHub are not cached. But You can discover by opening each commit on GitHub.
 
@@ -87,7 +87,7 @@ On the other hand, Weblate publishes user's e-mail addresses. It is not in the c
 > Terms of Service 6.5. The User agrees to use of own name and e-mail as authorship in the VCS commits. The User understands that this grant is non revocable due to nature of the VCS.<br>
 > Privacy Policy 2. Name and e-mail address : These are used to identify you in the VCS commits.
 
-The user agrees to be used. However, There is no mention of the fact that anyone can view the personal information of VCS commits. This does not end with disclosure to the VCS system. It will be disclosed to all persons who have access to the public VCS.
+The user agrees to be used. However, There is no mention of the fact that anyone can view the personal information of VCS commits. This does not end with disclosure to the VCS system. It will be disclosed to all persons who have access to the public VCS. Below #6508 is concerned about the possibility of illegality.
 
 * Make user's email addresses private by default (2019): https://github.com/WeblateOrg/weblate/issues/3105
 * Allow personal email addresses to be ommitted in commits (Development in progress in 2021 - 2022) : https://github.com/WeblateOrg/weblate/issues/6508
@@ -108,7 +108,7 @@ An issue was created in 2015, but managing participants is a paid feature.
 
 A troll came to the translation platform Weblate. He keeps reverting to the wrong translation. However, Weblate's free plan allows neither access control nor a review system. Only Weblate has no code of conduct (below). Trolls can submit low quality translations many times.
 
-In this case, the change history is increased. However Weblate only displays 10 logs including comments on each string page. I need to open a page for each string. It's dozen pages. Thus, Weblate is not suitable for discussion. When I tried to move the discussion to GitHub, the GitHub developers told me to go back to Weblate.
+In this case, the change history is increased. However Weblate only displays 10 logs including comments on each string page. I need to open each string page to comment, It's dozen pages. Thus, Weblate is not suitable for wide-ranging discussion. When I tried to move the discussion to GitHub, the GitHub developers told me to go back to Weblate.
 
 Thus for a long time, the Japanese translation of "About" remained the same "About". And, New contributors have registered broken Japanese. Developers cannot select experienced participants. Only the last edit will remain. If trolls are involved, the quality of the translation will be lowered.
 
