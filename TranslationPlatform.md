@@ -1,8 +1,8 @@
 # Translation Platform Comparison for Open Source softwares
 
-**Software Translation Platform** or **Software Localization Platform** is a tool to assist in the process of translating software for a large group of people. This is primarily an online tool. e.g. GitHub, Transifex, Crowdin, Wordpress.org. (**Update** : October 2022)
+**Software Translation Platform** or **Software Localization Platform** is a tool to assist in the process of translating software for a large group of people. This is primarily an online tool. e.g. GitHub, Transifex, Wordpress.org. (**Update**: October 2022)
 
-E-Mail is also often used to send translation files. For successful software localization. Good communication, Announcement of activities, and use of existing platforms are important. The use of a translations editor is also useful. e.g. IniTranslator, Qt-Linguist, POEdit.
+E-Mail is also often used to send translation files. For successful software localization. Good communication, Announcement of activities, and use of existing platforms are important. The use of a translations editor software is also useful. e.g. IniTranslator, Qt-Linguist, POEdit.
 
 Many are careful to protect personal information. I'm concerned that Weblate is publishing contributors' email addresses.
 
@@ -13,11 +13,13 @@ As a native Japanese, I have translated over a hundred applications. Many are op
 
 **Good communications**
 
-GitHub and E-mail are the major. GitHub and E-mail are always in communication. We can communicate with developers with icons. Most developers are friendly and jovial. This is one of the joys of GitHub. But On the Translation Platform, the developer basically does not know the translator. Developers should welcome translation contributors who encounter problems to come to GitHub to communicate.
+GitHub and E-mail are the major. GitHub and E-mail are always in communication. We can communicate with developers with icons. Most developers are friendly and jovial. This is one of the joys of GitHub. But On the Translation Platform, the developer basically does not know the translator. Developers should welcome translation contributors who encounter problems to come to GitHub to communicate. In this case, access control may be necessary.
+
+The Code of Conduct is also available as open source. It has been forked into many projects to create successful projects and cooperative relationships.
 
 **Announcement of activities**
 
-The most common means is online platforms including GitHub. They provide a visualization of the participants' behavior. In the case of e-mail, it may be difficult to recognize another translator. On GitHub, you can see the update history of each code. Even if the project is not active, the e-mail is more difficult to understand. The developer may not check e-mail frequently.
+The most common means is online platforms including GitHub. They provide a visualization of the participants' behavior. In the case of e-mail, it may be difficult to recognize another translator. On GitHub, you can see the update history of each code. Even if the project is not active, the e-mail is more difficult to understand. The developer may not check e-mail frequently. It is important to announce that the project has not been suspended.
 
 **Use of existing platforms**
 
@@ -87,20 +89,22 @@ On the other hand, Weblate publishes user's e-mail addresses. It is not in the c
 > Terms of Service 6.5. The User agrees to use of own name and e-mail as authorship in the VCS commits. The User understands that this grant is non revocable due to nature of the VCS.<br>
 > Privacy Policy 2. Name and e-mail address : These are used to identify you in the VCS commits.
 
-The user agrees to be used. However, There is no mention of the fact that anyone can view the personal information of VCS commits. This does not end with disclosure to the VCS system. It will be disclosed to all persons who have access to the public VCS. Below #6508 is concerned about the possibility of illegality.
+The user agrees to be used. However, There is no mention of the fact that anyone can view the personal information of VCS commits. This does not end with disclosure to the VCS system. It will be disclosed to all persons who have access to the public VCS.
 
-* Make user's email addresses private by default (2019): https://github.com/WeblateOrg/weblate/issues/3105
-* Allow personal email addresses to be ommitted in commits (Development in progress in 2021 - 2022) : https://github.com/WeblateOrg/weblate/issues/6508
+In #3105 below, the right to restrictions in the GDPR is not recognized. I am surprised. In #6508 below, pappasadrian (user) is concerned about illegality.
+
+* #3105: Make user's email addresses private by default (2019): https://github.com/WeblateOrg/weblate/issues/3105
+* #6508: Allow personal email addresses to be ommitted in commits (Development in progress in 2021 - 2022) : https://github.com/WeblateOrg/weblate/issues/6508
 
 ## Access control
 It concerns the developer stopping vandalism. They also have a reviewer system. Reviewers can approve translation suggestions.
 
 - Wordpress.org Japan has a well-developed reviewer system. Translation guidelines are also available. Low quality translations will not be approved.
 - Transifex: Generaly, The administrator approves participation. This system itself is an access control.
-- Crowdin [User Management](https://support.crowdin.com/enterprise/user-management/) : In some projects, developers approve each suggestions. I do not experience a problem on Crowdin. So I don't know much about it.
+- [Crowdin Features](https://support.crowdin.com/features/), [User Management](https://support.crowdin.com/enterprise/user-management/) : In some projects, developers approve each suggestions. I doesn't experience a problem on Crowdin. So I don't know much about it.
 - Weblate [Access control](https://docs.weblate.org/en/latest/admin/access.html#access-control) : Anyone can rewrite it freely. Access control is not possible with the libre plan, which allows open source software projects to use it for free. [Turning on reviews](https://docs.weblate.org/en/latest/workflows.html#turning-on-reviews) : Not available for free projects.
 
-An issue was created in 2015, but managing participants is a paid feature.
+An issue was created in 2015, but The management of participants mentioned above remains a paid feature.
 
 * Authorized translators (2015) : https://github.com/WeblateOrg/weblate/issues/779
 
@@ -113,27 +117,24 @@ In this case, the change history is increased. However Weblate only displays 10 
 Thus for a long time, the Japanese translation of "About" remained the same "About". And, New contributors have registered broken Japanese. Developers cannot select experienced participants. Only the last edit will remain. If trolls are involved, the quality of the translation will be lowered.
 
 ## Code of Conduct for Translation Platforms
-Relates to the suspension of the use of vandalism. With the exception of Weblate, they have terms that prohibit personal attacks and harassment.
+Code of Conduct relates to the suspension of vandalism. With the exception of Weblate, they have terms that prohibit personal attacks and harassment. The [Contributor Covenant](https://www.contributor-covenant.org/) has been deployed in over 100,000 open source projects. It advocates welcoming and constructive guideline for people to form cooperative relationships. We find commonality below.
 
 [GitHub Community Guidelines](https://docs.github.com/en/site-policy/github-terms/github-community-guidelines)
 > Working in a collaborative environment means disagreements may happen. But **remember to criticize ideas, not people**. Share thoughtful, constructive criticism and be courteous to those you interact with.
 
 [GitHub Terms of Service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service#c-acceptable-use)
 > You agree that you will not under any circumstances violate our Acceptable Use Policies or **Community Guidelines**.
-
 ----
 [Transifex Community Guidelines](https://community.transifex.com/faq#improve)
 > But **remember to criticize ideas, not people**.
 > Please avoid: Ad hominem attacks; Responding to a post’s tone instead of its actual content
-> **Don’t harass** or grief anyone, impersonate people, or expose their private information.
-
+> **Don’t harass or grief anyone**, impersonate people, or expose their private information.
 ----
 [Crowdin Terms and Conditions](https://support.crowdin.com/terms/) : 7.1?
->7.1: the Client and any of the Users associated with the Account do not create, transmit, display or make otherwise available any Client Data that violates the terms of these Terms, (in short) or is harmful (in short), offensive, threatening, abusive, **harassing**, tortuous, defamatory, vulgar, obscene, invasive of another’s privacy, hateful or otherwise unlawful;
-
-----
-[Weblate](https://weblate.org/terms/): ***No code of conduct can be found.***
-
+>7.1: the Client and any of the Users associated with the Account do not create, transmit, display or make otherwise available any Client Data that violates the terms of these Terms, (in short) or is **harmful (in short), offensive, threatening, abusive, harassing, tortuous, defamatory, vulgar, obscene, invasive of another’s privacy, hateful or otherwise unlawful**;
 ----
 [WebTranslateIt](https://webtranslateit.com/tos) (Paidware)
 >You may **not use the site to harass** other users.
+----
+[Weblate](https://weblate.org/terms/): ***No code of conduct can be found.***
+
