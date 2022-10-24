@@ -125,6 +125,9 @@ Code of Conduct relates to the suspension of vandalism. With the exception of We
 [GitHub Terms of Service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service#c-acceptable-use)
 > You agree that you will not under any circumstances violate our Acceptable Use Policies or **Community Guidelines**.
 ----
+[Transifex Terms of Service](https://community.transifex.com/tos)
+> the Content is not pornographic, **does not contain threats** or incite violence, and does not violate the privacy or publicity rights of any third party;
+> 
 [Transifex Community Guidelines](https://community.transifex.com/faq#improve)
 > But **remember to criticize ideas, not people**.
 > Please avoid: Ad hominem attacks; Responding to a post’s tone instead of its actual content
@@ -133,8 +136,8 @@ Code of Conduct relates to the suspension of vandalism. With the exception of We
 [Crowdin Terms and Conditions](https://support.crowdin.com/terms/) : 7.1?
 >7.1: the Client and any of the Users associated with the Account do not create, transmit, display or make otherwise available any Client Data that violates the terms of these Terms, (in short) or is **harmful (in short), offensive, threatening, abusive, harassing, tortuous, defamatory, vulgar, obscene, invasive of another’s privacy, hateful or otherwise unlawful**;
 ----
-[WebTranslateIt](https://webtranslateit.com/tos) (Paidware)
+[WebTranslateIt Terms of Service](https://webtranslateit.com/tos) (Paidware)
 >You may **not use the site to harass** other users.
 ----
-[Weblate](https://weblate.org/terms/): ***No code of conduct can be found.***
+[Weblate Terms of Service](https://weblate.org/terms/): ***No code of conduct can be found.***
 
