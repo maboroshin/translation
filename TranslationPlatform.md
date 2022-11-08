@@ -19,11 +19,13 @@ The Code of Conduct is also available as open source. It has been forked into ma
 
 **Announcement of activities**
 
-The most common means is online platforms including GitHub. They provide a visualization of the participants' behavior. In the case of e-mail, it may be difficult to recognize another translator. On GitHub, you can see the update history of each code. Even if the project is not active, the e-mail is more difficult to understand. The developer may not check e-mail frequently. It is important to announce that the project has not been suspended.
+The most common means is online platforms including GitHub. They provide a visualization of the participants' behavior. In the case of e-mail, it may be difficult to recognize another translator. On GitHub, you can see the update history of each code. Even if the project is not active, the e-mail is more difficult to understand. The developer may not check e-mail frequently. It is important to announce that the project has not been suspended. 
 
 **Use of existing platforms**
 
-The uTorrent project had a translation platform on its own site. This is not recommended because it increases password management. If I have a Github account, I can join other existing platforms right away. I don't use Sourceforge because it is difficult to use. However, in most cases, the developer's e-mail address is publicly available. I send translation files to this address.
+The uTorrent project had a translation platform on its own site. This is not recommended because it increases password management. If I have a Github account, I can join other existing platforms right away.
+
+I don't use Sourceforge because it is difficult to use. However, in most cases, the developer's e-mail address is publicly available. I send translation files to this address. Developers need to be able to reply quickly to emails containing words like Translation and Localize.
 
 **Means of transmitting translation files**
 
@@ -80,7 +82,7 @@ In 2019, I found someone's e-mail address on WebTranslateIt (Paidware). When I c
 
 [Weblate](https://bestpractices.coreinfrastructure.org/en/projects/552#security) claims that one or more developers has knowledge about how to designing secure software and vulnerabilities. : via [Security and privacy](https://docs.weblate.org/en/latest/contributing/security.html) (Weblate). Weblate encrypt and store passwords. Weblate claims to be GDPR compliant.
 
-On the other hand, Weblate publishes user's e-mail addresses. It is not in the code, it is embedded in the comments of each commit on GitHub. So I using a Weblate-only e-mail address. For example, search for the following search terms : `Weblate commit "Co-authored-by"` . You will see that someone's e-mail address are publicly available. We are lucky that most pages on GitHub are not cached. But You can discover by opening each commit on GitHub.
+On the other hand, Weblate publishes user's e-mail addresses. This is more than 3 years after user request for nondisclosure. It is not in the code, it is embedded in the comments of each commit on GitHub. So I using a Weblate-only e-mail address. For example, search for the following search terms : `Weblate commit "Co-authored-by"` . You will see that someone's e-mail address are publicly available. We are lucky that most pages on GitHub are not cached. But You can discover by opening each commit on GitHub.
 
 [Weblate Legal Terms](https://hosted.weblate.org/legal/)
 > Your name and e-mail address is used in VCS commits, it will stay there indefinitely.
@@ -115,6 +117,8 @@ A troll came to the translation platform Weblate. He keeps reverting to the wron
 In this case, the change history is increased. However Weblate only displays 10 logs including comments on each string page. I need to open each string page to comment, It's dozen pages. Thus, Weblate is not suitable for wide-ranging discussion. When I tried to move the discussion to GitHub, the GitHub developers told me to go back to Weblate.
 
 Thus for a long time, the Japanese translation of "About" remained the same "About". And, New contributors have registered broken Japanese. Developers cannot select experienced participants. Only the last edit will remain. If trolls are involved, the quality of the translation will be lowered.
+
+( I have requested improvements to increase the number of logs. It has improved. : Add view for all string level changes https://github.com/WeblateOrg/weblate/issues/8254 )
 
 ## Code of Conduct for Translation Platforms
 Code of Conduct relates to the suspension of vandalism. With the exception of Weblate, they have terms that prohibit personal attacks and harassment. The [Contributor Covenant](https://www.contributor-covenant.org/) has been deployed in over 100,000 open source projects. It advocates welcoming and constructive guideline for people to form cooperative relationships. We find commonality below.
