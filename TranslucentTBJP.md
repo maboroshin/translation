@@ -2,21 +2,20 @@
 - 翻訳者 (translater): maboroshin (https://pc.genkaku.in/)
 - ライセンス (License): 元のソフトと同様に GPL v3 に従います。
 - 元の文書 (Original document): https://github.com/TranslucentTB/TranslucentTB/blob/master/README.md
-- 元の文書の日時 (Original date): 2022年2月23日: [Commits on Feb 23, 2022](https://github.com/TranslucentTB/TranslucentTB/commits/release/README.md)
-- ソフトウェア本体では、[2022年4月に私が日本語化を追加済みでバージョンアップ公開待ち](https://github.com/TranslucentTB/TranslucentTB/pull/592) (2021年11月に多言語化したので)
+- 元の文書の日時 (Original date): 2022年11月27日: Commits on  Nov 27, 2022
+- ソフトウェア本体では、[2022年4月に私が日本語化を追加済みでバージョンアップ公開待ち](https://github.com/TranslucentTB/TranslucentTB/pull/592) (2021年11月に多言語化機能) の2022年のバージョン用の説明書
 
 # TranslucentTB 説明書の日本語訳
 
+[![Total downloads](https://img.shields.io/github/downloads/TranslucentTB/TranslucentTB/total.svg)](https://github.com/TranslucentTB/TranslucentTB/releases)<!--Deleted in original-->
 [![Liberapay patrons](https://img.shields.io/liberapay/patrons/TranslucentTB.svg)](https://liberapay.com/TranslucentTB/)
 [![Join on Discord](https://discordapp.com/api/guilds/304387206552879116/widget.png?style=shield)][Discord]
-[![Join on Gitter](https://badges.gitter.im/TranslucentTB/Lobby.svg)][Gitter]
-[![Total downloads](https://img.shields.io/github/downloads/TranslucentTB/TranslucentTB/total.svg)](https://github.com/TranslucentTB/TranslucentTB/releases)
 [![Build Status](https://dev.azure.com/sylve0n/TranslucentTB/_apis/build/status/TranslucentTB.TranslucentTB?branchName=develop)](https://dev.azure.com/sylve0n/TranslucentTB/_build/latest?definitionId=4&branchName=develop)
 [![CodeFactor](https://www.codefactor.io/repository/github/translucenttb/translucenttb/badge/develop)](https://www.codefactor.io/repository/github/translucenttb/translucenttb/overview/develop)
 
-> [**マルウェアの疑いについて**、権限使用に関する説明(英語)](https://github.com/TranslucentTB/TranslucentTB/issues/350) (訳注: Windows Store によくある警告表示が拡大解釈されているだけとのこと)
+![Microsoft Store App Awards 2022 - Community Choice Award: Open Platform (runner up)](https://user-images.githubusercontent.com/6440374/180880766-4380b2cf-4d9e-4d07-8986-a9b34cb6244a.png#gh-dark-mode-only)![Microsoft Store App Awards 2022 - Community Choice Award: Open Platform (runner up)](https://user-images.githubusercontent.com/6440374/180880839-355c472c-0b7a-4aae-88e5-0234001cb281.png#gh-light-mode-only)
 
-Windows のタスクバーを透明/半透明にする軽快なソフトです（数MBのメモリで動作し、CPUもほとんど使いません）。Windows10用です（訳注: 更新履歴では Windows 11 用に更新されている）。
+Windows のタスクバーを透明/半透明にする軽快なソフトです（数MBのメモリで動作し、CPUもほとんど使いません）。Windows10、Windows 11 用です。
 
 サンプル画像は以下です。このようにカスタマイズできます。
 
@@ -29,21 +28,33 @@ Windows のタスクバーを透明/半透明にする軽快なソフトです�
   - **標準** (Normal): 通常のウィンドウのスタイルです。 (TranslucentTB を使っていないのと同じ)
   - **不透明** (Opaque): 色つきタスクバーで、透明化はなし。
   - **透明** (Clear): 色つきタスクバー（訳注: 透明度100%も可能）
-  - **透かし** (Blur): タスクバーを少しぼかします。
+  - **透かし** (Blur): タスクバーを少しぼかします。Windows 10 と Windows 11 build 22000 のみ。
   - **アクリル** (Acrylic): タスクバーの見た目を、Microsoftの フルーエント (Fluent) デザインのガイドラインに準拠した感じにします。（訳注:2020年以前の選択名 フルーエント）
 - **動的**モード (併用できます。訳注: つまりタスクバーの状態を固定せず状態に応じて自動で変更させる):
-  - **動的・ウインドウ**: 何らかのウィンドウが表示 (Visible) または最大化 (Maximise) されたら、タスクバーを変更します。
-  - **動的・スタート・メニュー**: スタートメニューを開いたとき (Start opened) に変更します。
-  - **動的・Cortana**: Cortana (無効になっていれば検索の)使用時 (Search opened) に変更します。
-  - **動的・タイムライン**: タイムラインを開いている時 (Time View opened) に変更します。
-- **Aero Peek ボタン** の表示/非表示では、 有効化した動的モードによって表示されます。(訳注: タスクバーの右端に出る、デスクトップを表示するボタン)
-- [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) に互換性あり！
+  - **ウインドウ表示**: デスクトップ上でウィンドウを開いているなら、タスクバーを変更します。
+  - **ウインドウ最大化**: 何らかのウィンドウが最大化 (Maximise) されたら、タスクバーを変更します。
+  - **スタートを開いたら**: スタートメニューを開いたとき (Start opened) に、タスクバーを変更します。
+  - **検索を開いたら**: 検索メニュー（以前はCortana）を開いたら、タスクバーを変更します。
+  - **タスクビューを開いたら**: タスクビュー（以前はタイムライン）を開いたら、タスクバーを変更します。
+- Windows 10では、その時有効な動的な状態によって Aero Peek ボタンを表示/非表示にする機能を追加。
+- Windows 11では、その時有効な動的な状態によって、タスクバー用の線を表示/非表示にする機能を追加。
+- [RoundedTB](https://github.com/torchgm/RoundedTB) に互換！
+- [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) に互換！
 
-ここで動作の説明を見ることができます。 [短い動画](https://gfycat.com/TidyFelineCrownofthornsstarfish)・[長い動画](https://gfycat.com/ConsciousCriminalDassie)
+## スクリーンショット
+
+<img src="https://i.imgur.com/QbG7KQA.png" alt="windows 11 アクリル" width="243"> <img src="https://i.imgur.com/zabZ52s.png" alt="windows 11 透明" width="243">
+
+![windows 10 アクリル](https://i.imgur.com/M15IPJW.png) ![windows 10 透明](https://i.imgur.com/eLGTtwp.png) ![windows 10 透かし](https://i.imgur.com/r4ZJjnL.png)
 
 ## ダウンロード
+[<img src="https://get.microsoft.com/images/en-us%20dark.svg" alt="Get it from Microsoft" height="104">](https://apps.microsoft.com/store/detail/9PF4KZ2VN4W9)
 
-本プログラムは、[Microsoft Store](https://www.microsoft.com/store/apps/9PF4KZ2VN4W9) から自由にダウンロードでき、ここから入手することで自動更新や設定の同期といった利点があります。
+本プログラムは、[Microsoft Store](https://www.microsoft.com/store/apps/9PF4KZ2VN4W9) から自由にダウンロードでき、ここから入手することで自動更新され便利です。
+
+代わりに、`TranslucentTB.appinstaller` を [GitHubの releases](https://github.com/TranslucentTB/TranslucentTB/releases) からダウンとロードしインストールすることもできます。
+
+ポータブル版の `TranslucentTB.zip` も [GitHubの releases](https://github.com/TranslucentTB/TranslucentTB/releases) から入手できますが、Windows 11 でのみ動作します。
 
 また、これまでのようにダウンロードしたければ、[Git の Releases](https://github.com/TranslucentTB/TranslucentTB/releases) からダウンロードできます。
 
@@ -53,13 +64,17 @@ Windows のタスクバーを透明/半透明にする軽快なソフトです�
 
 OS の起動時に TranslucentTB を起動するには、TranslucentTB のトレイアイコンの右クリックメニューから、「起動時に実行」(Open at boot) にチェックを入れてください。灰色になっていて有効化できない場合、あなたの所属機関によって無効化されています。
 
-## 寄付
+ポータブル版では、`%AppData%\Microsoft\Windows\Start Menu\Programs\Startup` に、実行ファイルへのショートカットを作成することでスタートアップに追加できます。
+
+## 寄付と貢献者
 
 [Liberapayを用意しています](https://liberapay.com/TranslucentTB/)。TranslucentTB を大切だと感じ私たちの開発をサポートしてくださるなら、寄付を歓迎しています。
 
+ソースコードに貢献したい場合、[貢献の手引き](CONTRIBUTING.md)があります。
+
 ## セキュリティ
 
-過剰に敏感な一部のウイルス対策ソフトは、悪意のあるプログラムだと目くじらを立てるかもしれません。しかしそうではありません！200万人以上の利用者が安全にダウンロードしています。ソースコードは公開されており、[自分でコンパイル](https://github.com/TranslucentTB/TranslucentTB/blob/release/CONTRIBUTING.md#building-from-source)して動作させることもできます。セキュリティ面の審査も歓迎します。
+過剰に敏感な一部のウイルス対策ソフトは、悪意のあるプログラムだと目くじらを立てるかもしれません。しかしそうではありません！1000万人以上の利用者が安全にダウンロードしています。ソースコードは公開されており、[自分でコンパイル](https://github.com/TranslucentTB/TranslucentTB/blob/release/CONTRIBUTING.md#building-from-source)して動作させることもできます。セキュリティ面の審査も歓迎します。
 
 ## 謝辞
 
@@ -69,27 +84,15 @@ TranslucentTB は大勢の人々の取り組みによる産物です！:
 - [@sylveon](https://github.com/sylveon),
 - [@MrAksel](https://github.com/MrAksel),
 - [@denosawr](https://github.com/denosawr),
-- [@PFCKrutonium](https://github.com/PFCKrutonium),
 - 最後になりますが、[ほかのすべての貢献者の方々も](https://github.com/TranslucentTB/TranslucentTB/graphs/contributors)!
 
 アイコン作成者の[@dAKirby309](https://github.com/dAKirby309)に感謝！[彼のDeviantArt内のプロフィール](https://www.deviantart.com/dakirby309)から、彼のすべての作品が見れます。
 
-### 類似ソフト
-
-タスクバーを変更する以上のものを探している場合、いくつかのプログラムがあります。
-
-- [TaskbarX](https://github.com/ChrisAnd1998/TaskbarX) もタスクバーの見た目を変更しますが、TranslucentTB の動的モードはありません。
-- [Taskbar Tools](https://github.com/Elestriel/TaskbarTools) C# で書かれた同様のプログラムです。しかし開発停止しているようです。
- 
-StartIsBack や Start10、今では機能していない Classic Shell などのソフトで、同様の透明化の機能を見たことがあるかもしれません。これらは素晴らしいソフトですが、スタートを置き換える機能は私には不要でした。そこで私は TranslucentTB を作りました。また TranslucentTB では、それらのソフトにはない動的変更の機能によって、よりタスクバーをカスタマイズできます。ディスク容量とメモリへの影響も少ないです。
-
 ### ライセンス
 
-このプログラムは、GPL v3 のライセンスのフリーなソフトウェアです。詳細は [ライセンス](https://github.com/TranslucentTB/TranslucentTB/blob/release/LICENSE.md) ファイルをご確認ください。
+このプログラムは、GPL v3 のライセンスのフリーなソフトウェアです。詳細は [ライセンスのファイル](https://github.com/TranslucentTB/TranslucentTB/blob/release/LICENSE.md) をご確認ください。
 
 [Discord]: https://discord.gg/TranslucentTB
-[Gitter]: https://gitter.im/TranslucentTB/L
-
 
 # TranslucentTB 日本語化してコンパイル時のメモ
 - SDK 10.0.22543 が Windows11なので使えない。未確認。
