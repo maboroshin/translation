@@ -3,7 +3,7 @@
 - ライセンス (License): 元のソフトと同様に GPL v3 に従います。
 - 元の文書 (Original document): https://github.com/TranslucentTB/TranslucentTB/blob/master/README.md
 - 元の文書の日時 (Original date): 2022年11月27日: Commits on  Nov 27, 2022
-- ソフトウェア本体では、[2022年4月に私が日本語化を追加済みでバージョンアップ公開待ち](https://github.com/TranslucentTB/TranslucentTB/pull/592) (2021年11月に多言語化機能) の2022年のバージョン用の説明書
+- 2022年のバージョン用の説明書。（2021年11月に多言語化を実装、気付いて2022年4月に私が日本語化、12月にバージョンアップで公開）
 
 # TranslucentTB 説明書の日本語訳
 
