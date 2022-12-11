@@ -96,7 +96,9 @@ The user agrees to be used. However, There is no mention of the fact that anyone
 In #3105 below, the right to restrictions in the GDPR is not recognized. I am surprised. In #6508 below, pappasadrian (user) is concerned about illegality.
 
 * #3105: Make user's email addresses private by default (2019): https://github.com/WeblateOrg/weblate/issues/3105
-* #6508: Allow personal email addresses to be ommitted in commits (Development in progress in 2021 - 2022) : https://github.com/WeblateOrg/weblate/issues/6508
+* #6508: Allow personal email addresses to be ommitted in commits (Implemented on Oct 2022) : https://github.com/WeblateOrg/weblate/issues/6508
+
+It seems that in 2022 we can finally choose to go private. However It's not easy to keep it private for once published, because the e-mail address is passed to GitHub commits. I think it can link to Weblate from GitHub and publish e-mail address on Weblate.
 
 ## Access control
 It concerns the developer stopping vandalism. They also have a reviewer system. Reviewers can approve translation suggestions.
