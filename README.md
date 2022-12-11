@@ -24,10 +24,10 @@ I also tried the following （また以下も未翻訳部分の翻訳をやっ�
 * [SciTE](https://github.com/mirror/scite)
 * [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray) (full)
 * [CoreTemp](https://www.alcpu.com/CoreTemp/)
-* [EarTrumpet](https://www.microsoft.com/ja-jp/p/eartrumpet/9nblggh516xp)
+* [EarTrumpet](https://www.microsoft.com/ja-jp/p/eartrumpet/9nblggh516xp) (full)
 * [Lossless Cut](https://github.com/mifi/lossless-cut) (full)
 * [TranslucentTB](https://github.com/TranslucentTB/TranslucentTB/) (full)
-* [Mica for Everyone](https://github.com/MicaForEveryone/MicaForEveryone)
+* [Mica for Everyone](https://github.com/MicaForEveryone/MicaForEveryone) (full)
 
 more...
 
@@ -114,11 +114,32 @@ more...
 - [WebTranslateIt](https://webtranslateit.com/) Settings から AutoScroll を No に。あと同じく設定から固定幅フォントを使ってもいいかも。活動がない場合の除名時にメアドが公開されていたが、私が問い合わせたら非公開に修正されました。規範 [WebTranslateIt Terms of Service](https://webtranslateit.com/en/tos)
 - [Weblate](https://hosted.weblate.org/) ここだけ Merge 時のログなどにメアドが公開される可能性があるので、望まない場合、メアドを別に取得するといいでしょう。Zen をクリックで一覧を表示。検索も少し使いにくい。規範なし？笑
 
+## 多言語化に対応していない場合
+* 使用: [Resource Hacker Portable](https://portableapps.com/apps/utilities/resource-hacker-portable) と [日本語化ファイル](https://github.com/Rukoto/Toy-Box)または[日本語化2](https://wwwcfe.hatenablog.com/entry/20100917/resourcehacker)
+
+Resource Hacker（リソースディタ）を使用して、手動で日本語化するには、実行ファイル（```.exe``` または ```.dll```） をResource Hacker で開き、```Menu```、```Dialog```、```String Table``` を日本語化してみます。英語を日本語にします。括弧の ```"文字列"``` 内を翻訳していきます。この表示用文字列がない場合は、Resource Hacker ではなくさらにバイナリエディタを使う方法があります（ここでは解説しません）。
+
+1か所やってみて、左サイドバーで別のリソース番号にフォーカスを移すと「コンパイルしますか？」と出るのでコンパイルし、それから「保存」します。ソフトを起動してみて日本語になっていれば最後まで続けましょう。ただし書き変えまくってると、ファイルが破損するのか、ウイルスに判定されるのか、たまに実行ファイルが実行できなくなる場合があるので、そうなると再び最初からすでに作って壊れたファイルからコピペして作っていきます。なので途中で何回も半翻訳済みの実行ファイルをコピーして保存していくといいです。
+
+***実行ファイル内に複数の言語がある***場合、多言語化に対応している可能性がありどれかの言語を、「リソースの言語を変更」（Change Language for this Resource... F6）から以下に変更します。同様にコンパイルし保存し日本語が表示されるか試しましょう。
+* ```Language``` : ```JAPANESE```
+* ```Lang ID``` : ```1041``` （多くはこの番号でいいかと）
+
+***リソースをまとめて文字列で出力する***には、例えば ```Menu``` を翻訳したら、メニューの「操作」（Action）から、「[Menu] グループを *.rc ファイルに保存」（Save [Menu] Group to an RC file）でテキスト形式で保存できます。```Menu```、```Dialog```、```String Table```を出力し、ひとつの ```.rc``` ファイルにまとめます。複数の言語がある場合には、```ENGLISH``` の部分は不要なので全部削除しておきます。オープンソースのソフトなら、ライセンスを継承して翻訳したリソースをアップロードすることに何も問題はないでしょう。これのファイルをコンパイルさせて読み込めばいいのではと思いました。「すべてのリソースを *.rc ファイルに保存」（Save All Resources...略）では、アイコンファイルとか多数出力されるので注意。
+
+翻訳してない元の英語のままの ```.rc``` も出力しておくと、バージョンアップ時に [Mergly](http://mergely.com/editor) など差分検出ツールで更新の有無を検出できます。
+
+***出力された文字列のリソースをコンパイルして読み込むには*** 。Resource Hacker で出力した ```.rc``` を読み込みます。メニューの「操作」（Action）から、「スクリプトをコンパイル」（Compile Acript F5）、そしてバイナリ RES (```.res```) で保存します。実行ファイルを読み込み、「操作」の「リソース ファイル (*.res 略)から追加(R)」でこのバイナリの ```.res``` を追加します。ダイアログが出るので、「上書き」（Overwrite）と「すべて選択」（Check）を選択し、インポート（Import）します。
+
+オープンソースであれば、この形式でアップロードしておけばいいのではと思ったので。
+
+以上の作業をコマンドラインで補助するには以下。
+
 ## If not support multilingualization
 If the software does not support multilingualization, Software use for translation.
 （もしソフトウェアが多言語に対応していない場合、翻訳に使うソフトウェアは以下）
 
-* [Resource Hacker Portable](https://portableapps.com/apps/utilities/resource-hacker-portable) , and [jp patch](https://wwwcfe.hatenablog.com/entry/20100917/resourcehacker)
+* Use: [Resource Hacker Portable](https://portableapps.com/apps/utilities/resource-hacker-portable) , and [jp language file](https://github.com/Rukoto/Toy-Box) or [file2](https://wwwcfe.hatenablog.com/entry/20100917/resourcehacker)
 
 You can also translate ***manually*** on Resource Hacker. However, you can also use the command line, Using a ***batch***. It will be easier to detect changes.
 
