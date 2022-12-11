@@ -115,7 +115,7 @@ more...
 - [Weblate](https://hosted.weblate.org/) ここだけ Merge 時のログなどにメアドが公開される可能性があるので、望まない場合、メアドを別に取得するといいでしょう。Zen をクリックで一覧を表示。検索も少し使いにくい。規範なし？笑
 
 ## 多言語化に対応していない場合
-* 使用: [Resource Hacker Portable](https://portableapps.com/apps/utilities/resource-hacker-portable) と [日本語化ファイル](https://github.com/Rukoto/Toy-Box)または[日本語化2](https://wwwcfe.hatenablog.com/entry/20100917/resourcehacker)
+* 使用: [Resource Hacker Portable](https://portableapps.com/apps/utilities/resource-hacker-portable) と [日本語化ファイル](https://github.com/Rukoto/Toy-Box)または[日本語化2](https://wwwcfe.hatenablog.com/entry/20100917/resourcehacker) （この日本語化ファイルは App\ResourceHacker\ResourceHacker.exe と同じフォルダに置きます） 
 
 Resource Hacker（リソースディタ）を使用して、手動で日本語化するには、実行ファイル（```.exe``` または ```.dll```） をResource Hacker で開き、```Menu```、```Dialog```、```String Table``` を日本語化してみます。英語を日本語にします。括弧の ```"文字列"``` 内を翻訳していきます。この表示用文字列がない場合は、Resource Hacker ではなくさらにバイナリエディタを使う方法があります（ここでは解説しません）。
 
