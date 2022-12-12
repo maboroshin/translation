@@ -1,6 +1,6 @@
 # Translation Platform Comparison for Open Source softwares
 
-**Software Translation Platform** or **Software Localization Platform** is a tool to assist in the process of translating software for a large group of people. This is primarily an online tool. e.g. GitHub, Transifex, Wordpress.org. (**Update**: October 2022)
+**Software Translation Platform** or **Software Localization Platform** is a tool to assist in the process of translating software for a large group of people. This is primarily an online tool. e.g. GitHub, Transifex, Wordpress.org. (**Update**: December 2022)
 
 E-Mail is also often used to send translation files. For successful software localization. Good communication, Announcement of activities, and use of existing platforms are important. The use of a translations editor software is also useful. e.g. IniTranslator, Qt-Linguist, POEdit.
 
