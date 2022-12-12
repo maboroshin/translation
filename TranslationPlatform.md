@@ -4,7 +4,7 @@
 
 E-Mail is also often used to send translation files. For successful software localization. Good communication, Announcement of activities, and use of existing platforms are important. The use of a translations editor software is also useful. e.g. IniTranslator, Qt-Linguist, POEdit.
 
-Many are careful to protect personal information. I'm concerned that Weblate is publishing contributors' email addresses until the end of 2022.
+Many are careful to protect personal information. Weblate continued to embed contributors' email addresses in GitHub commits until the end of 2022.
 
 With the exception of Weblate, they have terms that prohibit personal attacks harassment. There is also no access control with the Weblate free plan. Trolls can submit low quality translations many times.
 
@@ -82,7 +82,7 @@ In 2019, I found someone's e-mail address on WebTranslateIt (Paidware). When I c
 
 [Weblate](https://bestpractices.coreinfrastructure.org/en/projects/552#security) claims that one or more developers has knowledge about how to designing secure software and vulnerabilities. : via [Security and privacy](https://docs.weblate.org/en/latest/contributing/security.html) (Weblate). Weblate encrypt and store passwords. Weblate claims to be GDPR compliant.
 
-On the other hand, Weblate publishes user's e-mail addresses. This is more than 3 years after user request for nondisclosure. It is not in the code, it is embedded in the comments of each commit on GitHub. So I using a Weblate-only e-mail address. For example, search for the following search terms : `Weblate commit "Co-authored-by"` . You will see that someone's e-mail address are publicly available. We are lucky that most pages on GitHub are not cached. But You can discover by opening each commit on GitHub.
+On the other hand, Weblate publishes user's e-mail addresses. This is more than 3 years after user request for nondisclosure. It is not in the code, it is embedded in the comments of each commit on GitHub. So I using a Weblate-only e-mail address. For example, search for the following search terms : `Weblate commit "Co-authored-by"` . You will see that someone's e-mail address are publicly available. We are lucky that most pages on GitHub are not cached. But You can discover by opening each commit on GitHub. It's not easy to keep it private for once published, because the e-mail address is passed to GitHub commits. This continued until the end of 2022.
 
 [Weblate Legal Terms](https://hosted.weblate.org/legal/)
 > Your name and e-mail address is used in VCS commits, it will stay there indefinitely.
@@ -96,13 +96,13 @@ The user agrees to be used. However, There is no mention of the fact that anyone
 In #3105 below, the right to restrictions in the GDPR is not recognized. I am surprised. In #6508 below, pappasadrian (user) is concerned about illegality.
 
 * #3105: Make user's email addresses private by default (2019): https://github.com/WeblateOrg/weblate/issues/3105
-* #6508: Allow personal email addresses to be ommitted in commits (Implemented on end of 2022, But...This means below) : https://github.com/WeblateOrg/weblate/issues/6508
+* #6508: Allow personal email addresses to be ommitted in commits (Implemented on end of 2022, This means below) : https://github.com/WeblateOrg/weblate/issues/6508
 
-It seems that in end of 2022 we can finally choose to go private, by another e-mail can be registered. However It's not easy to keep it private for once published, because the e-mail address is passed to GitHub commits. I think it can link to Weblate from GitHub and publish e-mail address on Weblate.
+It seems that in end of 2022 we can finally choose to go private, by another e-mail can be registered. 
 
 At the end of 2022, Weblate finally reached the basic idea of making e-mails private by default.
 
-* #8451: Allow instance owner to set a default template for commit e-mail, hiding user e-mails from commits by default (End of 2022) https://github.com/WeblateOrg/weblate/issues/8451
+* #8451: Allow instance owner to set a default template for commit e-mail, hiding user e-mails from commits by default (Implemented on end of 2022) https://github.com/WeblateOrg/weblate/issues/8451
 
 ## Access control
 It concerns the developer stopping vandalism. They also have a reviewer system. Reviewers can approve translation suggestions.
