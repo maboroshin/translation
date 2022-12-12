@@ -135,10 +135,10 @@ Code of Conduct relates to the suspension of vandalism. With the exception of We
 [GitHub Terms of Service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service#c-acceptable-use)
 > You agree that you will not under any circumstances violate our Acceptable Use Policies or **Community Guidelines**.
 ----
-[Transifex Terms of Service](https://community.transifex.com/tos) (* This is not a Terms of Use. However each administrator can control access.)
+[Transifex Terms of Service](https://community.transifex.com/tos)
 > the Content is not pornographic, **does not contain threats** or incite violence, and does not violate the privacy or publicity rights of any third party;
 > 
-[Transifex Community Guidelines](https://community.transifex.com/faq#improve)
+[Transifex Community Guidelines](https://community.transifex.com/faq#improve) (* This is not a Terms of Use. However each administrator can control access.)
 > But **remember to criticize ideas, not people**.
 > Please avoid: Ad hominem attacks; Responding to a post’s tone instead of its actual content
 > **Don’t harass or grief anyone**, impersonate people, or expose their private information.
