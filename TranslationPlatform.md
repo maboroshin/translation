@@ -93,7 +93,7 @@ On the other hand, Weblate publishes user's e-mail addresses. This is more than 
 
 The user agrees to be used. However, There is no mention of the fact that anyone can view the personal information of VCS commits. This does not end with disclosure to the VCS system. It will be disclosed to all persons who have access to the public VCS.
 
-In #3105 below, the right to restrictions in the GDPR is not recognized. I am surprised. In #6508 below, pappasadrian (user) is concerned about illegality.
+In #3105 below, the right to restrictions in the GDPR is not recognized in 2019. I'm surprised. In #6508 below, pappasadrian (user) is concerned about illegality.
 
 * #3105: Make user's email addresses private by default (2019): https://github.com/WeblateOrg/weblate/issues/3105
 * #6508: Allow personal email addresses to be ommitted in commits (Implemented on end of 2022, This means below) : https://github.com/WeblateOrg/weblate/issues/6508
@@ -120,11 +120,11 @@ An issue was created in 2015, but The management of participants mentioned above
 
 A troll came to the translation platform Weblate. He keeps reverting to the wrong translation. However, Weblate's free plan allows neither access control nor a review system. Only Weblate has no code of conduct (below). Trolls can submit low quality translations many times.
 
-In this case, the change history is increased. However Weblate only displays 10 logs including comments on each string page. I need to open each string page to comment, It's dozen pages. Thus, Weblate is not suitable for wide-ranging discussion. When I tried to move the discussion to GitHub, the GitHub developers told me to go back to Weblate.
+In this case, the change history is increased. However Weblate only displays 10 logs including comments on each string page (** In the past). I need to open each string page to comment, It's dozen pages. Thus, Weblate is not suitable for wide-ranging discussion. When I tried to move the discussion to GitHub, the GitHub developers told me to go back to Weblate.
 
 Thus for a long time, the Japanese translation of "About" remained the same "About". And, New contributors have registered broken Japanese. Developers cannot select experienced participants. Only the last edit will remain. If trolls are involved, the quality of the translation will be lowered.
 
-( I have requested improvements to increase the number of logs. It has improved. : Add view for all string level changes https://github.com/WeblateOrg/weblate/issues/8254 )
+( ** I have requested improvements to increase the number of logs. It has improved: https://github.com/WeblateOrg/weblate/issues/8254 )
 
 ## Code of Conduct for Translation Platforms
 Code of Conduct relates to the suspension of vandalism. With the exception of Weblate, they have terms that prohibit personal attacks and harassment. The [Contributor Covenant](https://www.contributor-covenant.org/) has been deployed in over 100,000 open source projects. It advocates welcoming and constructive guideline for people to form cooperative relationships. We find commonality below.
