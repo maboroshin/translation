@@ -150,4 +150,7 @@ Code of Conduct relates to the suspension of vandalism. With the exception of We
 >You may **not use the site to harass** other users.
 ----
 [Weblate Terms of Service](https://weblate.org/terms/): ***No code of conduct can be found.***
+>3.5: The User agrees to refrain from use of the Service in bad faith and/or deliberately causing any damage to the Service.
+
+This seems like a close concept. The intent of the attack to others is unclear.
 
