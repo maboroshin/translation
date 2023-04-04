@@ -29,7 +29,7 @@ I also tried the following （また以下も未翻訳部分の翻訳をやっ�
 * [TranslucentTB](https://github.com/TranslucentTB/TranslucentTB/) (full)
 * [Mica for Everyone](https://github.com/MicaForEveryone/MicaForEveryone) (full)
 
-more... → [2023](../../wiki/%E6%97%A5%E6%9C%AC%E8%AA%9E%E5%8C%96%E3%83%9B%E3%83%BC%E3%83%A0)
+more... → [2023](../../wiki/)
 
 ## WordPress Plugins
 * [Really Simple SSL](https://translate.wordpress.org/locale/ja/default/wp-plugins/really-simple-ssl/)
