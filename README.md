@@ -33,7 +33,7 @@ more... → [2023](../../wiki/)
 
 ## WordPress Plugins
 * [Really Simple SSL](https://translate.wordpress.org/locale/ja/default/wp-plugins/really-simple-ssl/)
-* [Companion Auto Update](https://translate.wordpress.org/locale/ja/default/wp-plugins/companion-auto-update/) / ~~[Easy Updates Manager](https://translate.wordpress.org/locale/ja/default/wp-plugins/stops-core-theme-and-plugin-updates/)~~ (I stopped)
+* [Companion Auto Update](https://translate.wordpress.org/locale/ja/default/wp-plugins/companion-auto-update/) / ~~[Easy Updates Manager](https://translate.wordpress.org/locale/ja/default/wp-plugins/stops-core-theme-and-plugin-updates/)~~ (I stopped because more extra effort as fewer announcements.)
 * [Autoptimize](https://translate.wordpress.org/locale/ja/default/wp-plugins/autoptimize/)
 * [ImageMagick Engine](https://translate.wordpress.org/locale/ja/default/wp-plugins/imagemagick-engine/)
 * [WP YouTube Lyte](https://translate.wordpress.org/locale/ja/default/wp-plugins/wp-youtube-lyte/)
