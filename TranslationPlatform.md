@@ -135,13 +135,13 @@ Code of Conduct relates to the suspension of vandalism. With the exception of We
 [GitHub Terms of Service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service#c-acceptable-use)
 > You agree that you will not under any circumstances violate our Acceptable Use Policies or **Community Guidelines**.
 ----
-[Transifex Terms of Service](https://community.transifex.com/tos)
-> the Content is not pornographic, **does not contain threats** or incite violence, and does not violate the privacy or publicity rights of any third party;
-> 
-[Transifex Community Guidelines](https://community.transifex.com/faq#improve) (* This is not a Terms of Use. However each administrator can control access.)
-> But **remember to criticize ideas, not people**.
-> Please avoid: Ad hominem attacks; Responding to a post’s tone instead of its actual content
-> **Don’t harass or grief anyone**, impersonate people, or expose their private information.
+[Transifex Terms of Service](https://www.transifex.com/legal/terms/)
+> You will not, and will not attempt to, misuse the Services, and will use the Services only in a manner consistent with the Transifex Accepted Use Policy.
+> We may, but have no obligation to, remove your words or close an account containing your words that we determine in our sole discretion are
+unlawful, **offensive, threatening, libelous, defamatory**, pornographic, obscene or **otherwise objectionable** or violates any party’s intellectual property or these Terms.
+
+[Transifex Acceptable Use Policy](https://www.transifex.com/legal/acceptable-use/)
+
 ----
 [Crowdin Terms and Conditions](https://support.crowdin.com/terms/) : 7.1?
 >7.1: the Client and any of the Users associated with the Account do not create, transmit, display or make otherwise available any Client Data that violates the terms of these Terms, (in short) or is **harmful (in short), offensive, threatening, abusive, harassing, tortuous, defamatory, vulgar, obscene, invasive of another’s privacy, hateful or otherwise unlawful**;
@@ -153,3 +153,15 @@ Code of Conduct relates to the suspension of vandalism. With the exception of We
 >3.5: The User agrees to refrain from use of the Service in bad faith and/or deliberately causing any damage to the Service.
 
 This seems like a close concept. The intent of the attack to others is unclear. There is an anti-spam system: https://github.com/WeblateOrg/weblate/issues/2284 . Prevention of unrelated translations: https://github.com/WeblateOrg/weblate/issues/3040 . However, no search is available for harassment.
+
+### Transifex Community
+This is the entire forum, the translation tool itself above.
+
+[Transifex Community - Terms of Service](https://community.transifex.com/tos)
+> the Content is not pornographic, **does not contain threats** or incite violence, and does not violate the privacy or publicity rights of any third party;
+> 
+[Transifex Community - Guidelines](https://community.transifex.com/faq#improve) (* This is not a Terms of Use. However each administrator can control access.)
+> But **remember to criticize ideas, not people**.
+> Please avoid: Ad hominem attacks; Responding to a post’s tone instead of its actual content
+> **Don’t harass or grief anyone**, impersonate people, or expose their private information.
+----
