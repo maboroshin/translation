@@ -1,10 +1,10 @@
 # Translation Platform Comparison for Open Source softwares
 
-**Software Translation Platform** or **Software Localization Platform** is a tool to assist in the process of translating software for a large group of people. This is primarily an online tool. e.g. GitHub, Transifex, Wordpress.org. (**Update**: December 2022)
+**Software Translation Platform** or **Software Localization Platform** is a tool to assist in the process of translating software for a large group of people. This is primarily an online tool. e.g. GitHub, Transifex, Wordpress.org. (**Update**: August 2023)
 
-E-Mail is also often used to send translation files. For successful software localization. Good communication, Announcement of activities, and use of existing platforms are important. The use of a translations editor software is also useful. e.g. IniTranslator, Qt-Linguist, POEdit.
+E-Mail is also often used to send translation files. For successful software localization. However, there is a growing shift to online tools dedicated to translation. Good communication, Announcement of activities, and use of existing platforms are important. The use of a translations editor software is also useful. e.g. IniTranslator, Qt-Linguist, POEdit.
 
-Many are careful to protect personal information. Weblate continued to embed contributors' email addresses in GitHub commits until the end of 2022.
+Many are careful to protect personal information. Weblate continued to embed contributors' email addresses in GitHub commits until the end of 2022. That can now be stopped by the settings, but the information on GitHub will remain.
 
 With the exception of Weblate, they have terms that prohibit personal attacks harassment. There is also no access control with the Weblate free plan. Trolls can submit low quality translations many times.
 
@@ -42,7 +42,7 @@ Below is the means by which I sent the latest translation files. In some cases, 
 | Weblate   | 3 |
 | Crowdin   | 2 |
 | Translation platform<br>on the developer's<br>own site | 1 |
-| **Total** | **40** |
+| **Total** (October 2022) | **40** |
 
 \* I saw the notice on the site and sent an e-mail to the developer. Or, I sent an e-mail to the developers at Sourceforge.
 
@@ -64,7 +64,25 @@ Most translation files can be edited in a text editor. Translations editor has b
 | `ts` | Qt-Linguist | Compile to `qm` file 
 | `po` | [POEdit](https://poedit.net/) | Compile to `mo` file
 
-## Open source
+## Stats
+
+| |Transifex|Crowdin|Weblate|
+|:-:|:-:|:-:|:-:|
+Place|USA|Estonia|Czech Republic
+Projects|40,000<br>([2018](https://www.transifex.com/about/))|[166K](https://crowdin.com/page/about-crowdin)|1,164|
+Open project|[16,000](https://explore.transifex.com/)|16,869|[987](https://hosted.weblate.org/projects/?page=10&limit=100)
+Users|[0.5M](https://www.transifex.com/about/)|[2.1M](https://crowdin.com/page/about-crowdin)|?
+Team|[10 peples](https://www.transifex.com/about/)|[8 Peoples](https://crowdin.com/page/about-crowdin)|[3 Peoples](https://weblate.org/about/)
+Eemployees| [85](https://www.zippia.com/transifex-careers-1403904/) or [29](https://www.zoominfo.com/pic/transifex-limited/347156235)| [118](https://ee.linkedin.com/company/crowdin)|[4](https://rocketreach.co/weblate-profile_b5ebc47af42e8635)
+Access control | Free| Free | Paid |
+participation | approval | approval | anyone
+Anti-Harassment Policy|[O](https://www.transifex.com/legal/terms/)|[O](https://support.crowdin.com/terms/)|[X](https://weblate.org/terms/)
+Leakage of personal information | ? | ? |  [Weblate#8451](https://github.com/WeblateOrg/weblate/issues/8451) |
+
+* [Crowdin's Advanced Search](https://crowdin.com/projects#advanced-search) could be referenced up to page 563. It's 30 projects per page. 30*562+9=16869
+* [Weblate's top page](https://weblate.org/) claims 2500 libre software projects. Weblate displays 1165 projects in HostedWeblate on [the explore page](https://weblate.org/ja/discover/). And [HostedWeblate](https://hosted.weblate.org/) shows 1164. However, 987 projects are actually available for display. There are over 350 projects on servers other than HostedWeblate.
+
+### Open source
 
 Transifex was initially open source. Transifex stopped doing so in 2013. This has led some developers to migrate to Weblate. Because Weblate is open source. However, as shown below, this may not be related to improved translation quality.
 
@@ -82,7 +100,7 @@ In 2019, I found someone's e-mail address on WebTranslateIt (Paidware). When I c
 
 [Weblate](https://bestpractices.coreinfrastructure.org/en/projects/552#security) claims that one or more developers has knowledge about how to designing secure software and vulnerabilities. : via [Security and privacy](https://docs.weblate.org/en/latest/contributing/security.html) (Weblate). Weblate encrypt and store passwords. Weblate claims to be GDPR compliant.
 
-On the other hand, Weblate publishes user's e-mail addresses. This is more than 3 years after user request for nondisclosure. It is not in the code, it is embedded in the comments of each commit on GitHub. So I using a Weblate-only e-mail address. For example, search for the following search terms : `Weblate commit "Co-authored-by"` . You will see that someone's e-mail address are publicly available. We are lucky that most pages on GitHub are not cached. But You can discover by opening each commit on GitHub. It's not easy to keep it private for once published, because the e-mail address is passed to GitHub commits. This continued until the end of 2022.
+On the other hand, Weblate published user's e-mail addresses. This is more than 3 years after user request for nondisclosure. It is not in the code, it is embedded in the comments of each commit on GitHub. So I using a Weblate-only e-mail address. For example, search for the following search terms : `Weblate commit "Co-authored-by"` . You will see that someone's e-mail address are publicly available. We are lucky that most pages on GitHub are not cached. But You can discover by opening each commit on GitHub. It's not easy to keep it private for once published, because the e-mail address is passed to GitHub commits. This continued until the end of 2022.
 
 [Weblate Legal Terms](https://hosted.weblate.org/legal/)
 > Your name and e-mail address is used in VCS commits, it will stay there indefinitely.
@@ -97,8 +115,6 @@ In #3105 below, the right to restrictions in the GDPR is not recognized in 2019.
 
 * #3105: Make user's email addresses private by default (2019): https://github.com/WeblateOrg/weblate/issues/3105
 * #6508: Allow personal email addresses to be ommitted in commits (Implemented on end of 2022, This means below) : https://github.com/WeblateOrg/weblate/issues/6508
-
-It seems that in end of 2022 we can finally choose to go private, by another e-mail can be registered. 
 
 At the end of 2022, Weblate finally reached the basic idea of making e-mails private by default.
 
@@ -127,7 +143,10 @@ Thus for a long time, the Japanese translation of "About" remained the same "Abo
 ( ** I have requested improvements to increase the number of logs. It has improved: https://github.com/WeblateOrg/weblate/issues/8254 )
 
 ## Code of Conduct for Translation Platforms
-Code of Conduct relates to the suspension of vandalism. With the exception of Weblate, they have terms that prohibit personal attacks and harassment. The [Contributor Covenant](https://www.contributor-covenant.org/) has been deployed in over 100,000 open source projects. It advocates welcoming and constructive guideline for people to form cooperative relationships. We find commonality below.
+Code of Conduct relates to the suspension of vandalism. With the exception of Weblate, they have terms that prohibit personal attacks and harassment. The [Contributor Covenant](https://www.contributor-covenant.org/) has been deployed in over 100,000 open source projects. It advocates welcoming and constructive guideline for people to form cooperative relationships. It is also common in open source projects. [GNOME Code of Conduct
+](https://wiki.gnome.org/Foundation/CodeOfConduct), [KDE Community Code of Conduct](https://kde.org/code-of-conduct/)
+
+I find commonality below.
 
 [GitHub Community Guidelines](https://docs.github.com/en/site-policy/github-terms/github-community-guidelines)
 > Working in a collaborative environment means disagreements may happen. But **remember to criticize ideas, not people**. Share thoughtful, constructive criticism and be courteous to those you interact with.
