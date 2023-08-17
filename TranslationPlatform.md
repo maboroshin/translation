@@ -69,15 +69,17 @@ Most translation files can be edited in a text editor. Translations editor has b
 | |Transifex|Crowdin|Weblate|
 |:-:|:-:|:-:|:-:|
 Place|USA|Estonia|Czech Republic
-Projects|40,000<br>([2018](https://www.transifex.com/about/))|[166K](https://crowdin.com/page/about-crowdin)|1,164|
-Open project|[16,000](https://explore.transifex.com/)|16,869|[987](https://hosted.weblate.org/projects/?page=10&limit=100)
-Users|[0.5M](https://www.transifex.com/about/)|[2.1M](https://crowdin.com/page/about-crowdin)|?
+Projects|40,000<br>Nominal<br>([2018](https://www.transifex.com/about/))|[166K](https://crowdin.com/page/about-crowdin)<br>Nominal|1,164<br>Actual|
+Open project|[16,000](https://explore.transifex.com/)<br>Nominal|16,869<br>Actual|[987](https://hosted.weblate.org/projects/?page=10&limit=100)<br>Actual
+Users|[0.5M](https://www.transifex.com/about/)<br>Nominal|[2.1M](https://crowdin.com/page/about-crowdin)<br>Nominal|?
 Team|[10 peples](https://www.transifex.com/about/)|[8 Peoples](https://crowdin.com/page/about-crowdin)|[3 Peoples](https://weblate.org/about/)
 Eemployees| [85](https://www.zippia.com/transifex-careers-1403904/) or [29](https://www.zoominfo.com/pic/transifex-limited/347156235)| [118](https://ee.linkedin.com/company/crowdin)|[4](https://rocketreach.co/weblate-profile_b5ebc47af42e8635)
+Display of translation rate|Per peroject|Per peroject|1 page
+Integrity|1 page|1 page|Per string
 Access control | Free| Free | Paid |
-participation | approval | approval | anyone
+Participation | approval | approval | anyone
 Anti-Harassment Policy|[O](https://www.transifex.com/legal/terms/)|[O](https://support.crowdin.com/terms/)|[X](https://weblate.org/terms/)
-Leakage of personal information | ? | ? |  [Weblate#8451](https://github.com/WeblateOrg/weblate/issues/8451) |
+Leakage of personal data | ? | ? |  [Weblate#8451](https://github.com/WeblateOrg/weblate/issues/8451) |
 
 * [Crowdin's Advanced Search](https://crowdin.com/projects#advanced-search) could be referenced up to page 563. It's 30 projects per page. 30*562+9=16869
 * [Weblate's top page](https://weblate.org/) claims 2500 libre software projects. Weblate displays 1165 projects in HostedWeblate on [the explore page](https://weblate.org/ja/discover/). And [HostedWeblate](https://hosted.weblate.org/) shows 1164. However, 987 projects are actually available for display. There are over 350 projects on servers other than HostedWeblate.
