@@ -2,11 +2,11 @@
 
 **Software Translation Platform** or **Software Localization Platform** is a tool to assist in the process of translating software for a large group of people. This is primarily an online tool. e.g. GitHub, Transifex, Wordpress.org. (**Update**: August 2023)
 
-E-Mail is also often used to send translation files. For successful software localization. However, there is a growing shift to online tools dedicated to translation. Good communication, Announcement of activities, and use of existing platforms are important. The use of a translations editor software is also useful. e.g. IniTranslator, Qt-Linguist, POEdit.
+E-Mail is also often used to send translation files. For successful software localization. However, there is a growing shift to online tools dedicated to translation. Good communication, Announcement of activities, and use of existing platforms are important. The use of a translations editor software is also useful. e.g. POEdit, Qt-Linguist, IniTranslator.
 
 Many are careful to protect personal information. Weblate continued to embed contributors' email addresses in GitHub commits until the end of 2022. That can now be stopped by the settings, but the information on GitHub will remain.
 
-With the exception of Weblate, they have terms that prohibit personal attacks harassment. There is also no access control with the Weblate free plan. Trolls can submit low quality translations many times.
+With the exception of Weblate, they have terms that prohibit personal attacks harassment. Weblate is easy to join.
 
 ## Statistics and Impressions
 As a native Japanese, I have translated over a hundred applications. Many are open source.
@@ -69,20 +69,22 @@ Most translation files can be edited in a text editor. Translations editor has b
 | |Transifex|Crowdin|Weblate|
 |:-:|:-:|:-:|:-:|
 Place|USA|Estonia|Czech Republic
-Projects|40,000<br>Nominal<br>([2018](https://www.transifex.com/about/))|[166K](https://crowdin.com/page/about-crowdin)<br>Nominal|1,164<br>Actual|
-Open project|[16,000](https://explore.transifex.com/)<br>Nominal|16,869<br>Actual|[987](https://hosted.weblate.org/projects/?page=10&limit=100)<br>Actual
-Users|[0.5M](https://www.transifex.com/about/)<br>Nominal|[2.1M](https://crowdin.com/page/about-crowdin)<br>Nominal|?
+Projects|40,000<br>Nominal<br>([2018](https://www.transifex.com/about/))|[166K](https://crowdin.com/page/about-crowdin)<br>Nominal|1,164<br>Nominal|
+Open project|[16,000](https://explore.transifex.com/)<br>Nominal|[16,869](https://crowdin.com/projects#advanced-search)<br>Actual|[987](https://hosted.weblate.org/projects/?page=10&limit=100)<br>Actual
+Users|[0.5M](https://www.transifex.com/about/)<br>Nominal|[2.1M](https://crowdin.com/page/about-crowdin)<br>Nominal|[67,413](https://weblate.org/discover/)<br>Nominal
 Team|[10 peples](https://www.transifex.com/about/)|[8 Peoples](https://crowdin.com/page/about-crowdin)|[3 Peoples](https://weblate.org/about/)
-Eemployees| [85](https://www.zippia.com/transifex-careers-1403904/) or [29](https://www.zoominfo.com/pic/transifex-limited/347156235)| [118](https://ee.linkedin.com/company/crowdin)|[4](https://rocketreach.co/weblate-profile_b5ebc47af42e8635)
+Eemployees| [84](https://www.linkedin.com/company/transifex)| [117](https://ee.linkedin.com/company/crowdin)|[4](https://www.linkedin.com/company/weblate)<br>+Contributors
 Display of translation rate|Per peroject|Per peroject|1 page
-Integrity|1 page|1 page|Per string
-Access control | Free| Free | Paid |
+Integrity<br>[Details](https://github.com/maboroshin/translation/wiki/UI)|1 page|1 page|Per string
+Access control | Free| Free | Free |
 Participation | approval | approval | anyone
 Anti-Harassment Policy|[O](https://www.transifex.com/legal/terms/)|[O](https://support.crowdin.com/terms/)|[X](https://weblate.org/terms/)
-Leakage of personal data | ? | ? |  [Weblate#8451](https://github.com/WeblateOrg/weblate/issues/8451) |
+Leakage of personal data| ? | ? | X |
 
 * [Crowdin's Advanced Search](https://crowdin.com/projects#advanced-search) could be referenced up to page 563. It's 30 projects per page. 30*562+9=16869
 * [Weblate's top page](https://weblate.org/) claims 2500 libre software projects. Weblate displays 1165 projects in HostedWeblate on [the explore page](https://weblate.org/ja/discover/). And [HostedWeblate](https://hosted.weblate.org/) shows 1164. However, 987 projects are actually available for display. There are over 350 projects on servers other than HostedWeblate.
+
+* [Comparison of Translation Platform UI](https://github.com/maboroshin/translation/wiki/UI)
 
 ### Open source
 
@@ -113,7 +115,7 @@ On the other hand, Weblate published user's e-mail addresses. This is more than 
 
 The user agrees to be used. However, There is no mention of the fact that anyone can view the personal information of VCS commits. This does not end with disclosure to the VCS system. It will be disclosed to all persons who have access to the public VCS.
 
-In #3105 below, the right to restrictions in the GDPR is not recognized in 2019. I'm surprised. In #6508 below, pappasadrian (user) is concerned about illegality.
+In #3105 below, the right of deletion in the GDPR is not recognized in 2019. I'm surprised. In #6508 below, pappasadrian (user) is concerned about illegality. Again, he calls it the "leak".
 
 * #3105: Make user's email addresses private by default (2019): https://github.com/WeblateOrg/weblate/issues/3105
 * #6508: Allow personal email addresses to be ommitted in commits (Implemented on end of 2022, This means below) : https://github.com/WeblateOrg/weblate/issues/6508
@@ -128,13 +130,14 @@ It concerns the developer stopping vandalism. They also have a reviewer system. 
 - Wordpress.org Japan has a well-developed reviewer system. Translation guidelines are also available. Low quality translations will not be approved.
 - Transifex: Generaly, The administrator approves participation. This system itself is an access control.
 - [Crowdin Features](https://support.crowdin.com/features/), [User Management](https://support.crowdin.com/enterprise/user-management/) : In some projects, developers approve each suggestions. I doesn't experience a problem on Crowdin. So I don't know much about it.
-- Weblate [Access control](https://docs.weblate.org/en/latest/admin/access.html#access-control) : Anyone can rewrite it freely. Access control is not possible with the libre plan, which allows open source software projects to use it for free. [Turning on reviews](https://docs.weblate.org/en/latest/workflows.html#turning-on-reviews) : Not available for free projects.
+- Weblate: [Access control](https://docs.weblate.org/en/latest/admin/access.html#access-control) : User blocks are available in mid-2021. Until then, there was no access control on the free Libre plan.
 
-An issue was created in 2015, but The management of participants mentioned above remains a paid feature.
+An issue was created in 2015. The block feature became available in 2021.
 
 * Authorized translators (2015) : https://github.com/WeblateOrg/weblate/issues/779
+* Provide way to deal with abusing users (2019) https://github.com/WeblateOrg/weblate/issues/3040
 
-**Bad cace: failure to maintain translation quality**
+**Bad cace: failure to maintain translation quality** (Example before 2021)
 
 A troll came to the translation platform Weblate. He keeps reverting to the wrong translation. However, Weblate's free plan allows neither access control nor a review system. Only Weblate has no code of conduct (below). Trolls can submit low quality translations many times.
 
