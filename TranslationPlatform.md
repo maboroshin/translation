@@ -189,3 +189,6 @@ This is the entire forum, the translation tool itself above.
 > Please avoid: Ad hominem attacks; Responding to a post’s tone instead of its actual content
 > **Don’t harass or grief anyone**, impersonate people, or expose their private information.
 ----
+
+[Crowdin Community - Terms of Service](https://community.crowdin.com/tos)
+> You may not submit content to the forum that is illegal, offensive, or otherwise harmful to others. This includes content that is harassing, inappropriate, or abusive.
