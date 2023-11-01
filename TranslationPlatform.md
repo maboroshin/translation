@@ -77,7 +77,7 @@ Eemployees| [84](https://www.linkedin.com/company/transifex)| [117](https://ee.l
 Display of translation rate|Per peroject|Per peroject|1 page
 Integrity<br>[Details](https://github.com/maboroshin/translation/wiki/UI)|1 page|1 page|Per string
 Access control | Free| Free | Free |
-Participation | approval | approval | anyone
+Participation | Per project | Per project | anyone
 Anti-Harassment Policy|[O](https://www.transifex.com/legal/terms/)|[O](https://support.crowdin.com/terms/)|[X](https://weblate.org/terms/)
 Leakage of personal data| ? | ? | X |
 
