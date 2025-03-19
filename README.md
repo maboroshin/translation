@@ -5,29 +5,29 @@ I make translation files for my favorite software. （お気に入りのソフ�
 
 * [Notepad2](https://github.com/zufuliu/notepad2), ver Zufuliu / [Notepad3](https://github.com/rizonesoft/Notepad3) (Mainly these two software, but also the Mod and original.)
 
-I also tried the following （また以下も未翻訳部分の翻訳をやってみた）:
-* [PortableApps.com Platform](https://portableapps.com/) (fixed include: PA installer, and NSIS installer)
-* [Windows 10 Auto Dark Mode](https://github.com/Armin2208/Windows-Auto-Night-Mode/) (full translate)
+I also tried the following （また以下も未翻訳部分の翻訳をやってみた）★ are for good apps:
+* ★[PortableApps.com Platform](https://portableapps.com/) (fixed include: PA installer, and NSIS installer)
+* ★[Windows 10 Auto Dark Mode](https://github.com/Armin2208/Windows-Auto-Night-Mode/) (full translate) Microsoft Store Community Choice Awards 2022
 * [µTorrent](https://portableapps.com/apps/internet/utorrent_portable) (most)
-* [Transmission](https://portableapps.com/apps/internet/transmission-portable) (most)
+* ★[Transmission](https://portableapps.com/apps/internet/transmission-portable) (most)
 * ~~[qBittorrent](https://portableapps.com/apps/internet/qbittorrent_portable) (most)~~ Abandoned due to edit war. Japanese has been replaced by an English phonetics and sentences are longer.
-* [BeeBEEP](https://www.beebeep.net/) (full)
+* ★[BeeBEEP](https://www.beebeep.net/) (full)
 * [LameXP](https://github.com/lordmulder/LameXP) (full)
-* TeraCopy (About 50%)
-* [Universal Extractor 2](https://github.com/Bioruebe/UniExtract2)
+* [TeraCopy](https://www.codesector.com/teracopy) (About 50%)
+* ★[Universal Extractor 2](https://github.com/Bioruebe/UniExtract2)
 * [Q-Dir](https://www.softwareok.com/?seite=Freeware/Q-Dir) / [DesktopOK](https://www.softwareok.com/?seite=Freeware/DesktopOK) et by SoftwareOK
 * [mp3DirectCut](https://github.com/maboroshin/mp3DirectCut)
-* SUMo / DUMo / KCleaner / IDPhotoStudio et by [KCSoftware](https://www.kcsoftwares.com/?download)
+* SUMo / DUMo / KCleaner / IDPhotoStudio by ～～[KCSoftware](https://www.kcsoftwares.com/?download) : The developer quit.
 * [ShellMenuView](https://www.nirsoft.net/utils/shell_menu_view.html), [ShellMenuNew](https://www.nirsoft.net/utils/shell_menu_new.html), [ShellExView](https://www.nirsoft.net/utils/shexview.html), [OpenWithView](https://www.nirsoft.net/utils/open_with_view.html), [RegistryChangesView](https://www.nirsoft.net/utils/registry_changes_view.html), [FileTypesMan](https://www.nirsoft.net/utils/file_types_manager.html) by NirSoft
-* [Ditto](https://github.com/maboroshin/Ditto_JP)
+* ★[Ditto](https://github.com/maboroshin/Ditto_JP)
 * [DSyncronize](http://dimio.altervista.org/eng/) (full)
-* [SciTE](https://github.com/mirror/scite)
-* [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray) (full)
+* [SciTE](https://github.com/moltenform/scite-files)
+* ★[Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray) (full)
 * [CoreTemp](https://www.alcpu.com/CoreTemp/)
-* [EarTrumpet](https://www.microsoft.com/ja-jp/p/eartrumpet/9nblggh516xp) (full)
-* [Lossless Cut](https://github.com/mifi/lossless-cut) (full)
-* [TranslucentTB](https://github.com/TranslucentTB/TranslucentTB/) (full)
-* [Mica for Everyone](https://github.com/MicaForEveryone/MicaForEveryone) (full)
+* ★[EarTrumpet](https://www.microsoft.com/ja-jp/p/eartrumpet/9nblggh516xp) (full) Microsoft Store Community Choice Awards 2022, Window forest 2018 Bronze Prize  (窓の杜大賞2018年銅賞)
+* ★[LosslessCut](https://github.com/mifi/lossless-cut) (full)
+* ★[TranslucentTB](https://github.com/TranslucentTB/TranslucentTB/) (full) Microsoft Store Community Choice Awards 2022
+* ★[Mica for Everyone](https://github.com/MicaForEveryone/MicaForEveryone) (full)
 
 more... → [2023](../../wiki/)
 
