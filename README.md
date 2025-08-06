@@ -3,7 +3,7 @@
 # My translatoins
 I make translation files for my favorite software. （お気に入りのソフトの翻訳をしています）
 
-* [Notepad2](https://github.com/zufuliu/notepad4) (Notepad2 ver Zufuliu) / [Notepad3](https://github.com/rizonesoft/Notepad3) (Mainly these two software, but also the Mod and original.)
+* [Notepad4](https://github.com/zufuliu/notepad4) (Notepad2 ver Zufuliu) / [Notepad3](https://github.com/rizonesoft/Notepad3) (Mainly these two software, but also the Mod and original.)
 
 I also tried the following （また以下も未翻訳部分の翻訳をやってみた）★ are for good apps:
 * ★[PortableApps.com Platform](https://portableapps.com/) (fixed include: PA installer, and NSIS installer)
